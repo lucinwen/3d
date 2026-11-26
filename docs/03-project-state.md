@@ -13,20 +13,20 @@ Build a durable, multi-agent-maintainable learning and engineering repository fo
 - Six-course roadmap: documented.
 - Teaching standard: documented.
 - Practice/capstone plan: documented.
-- Lessons 1–10: archived in structured form.
+- Lessons 1–12: archived in structured form; Lesson 13 was taught in chat and awaits repository archival; Lesson 14 Diffusion is archived.
 - Agent onboarding and handoff protocol: being established.
-- Lesson 11 (NeRF): current teaching unit.
+- Lesson 14 (Diffusion): current teaching unit.
 
 ## Important completeness caveat
 
-Lessons 1–7 were reconstructed as structured summaries from available prior-course context, not verified as verbatim transcripts of every historical teaching message. Lessons 8–10 were also condensed for repository archiving. Do not claim the first ten lessons are byte-for-byte or detail-for-detail complete. Future work should reconcile each lesson against original conversation exports when available and add missing derivations, examples, code, references, quiz explanations, and exercises.
+Lessons 1–7 were reconstructed as structured summaries from available prior-course context, not verified as verbatim transcripts of every historical teaching message. Lessons 8–10 were also condensed for repository archiving. Lesson 13 (SDF) has been taught in chat but is not yet archived as a lesson file. Do not claim the first ten lessons are byte-for-byte or detail-for-detail complete. Future work should reconcile each lesson against original conversation exports when available and add missing derivations, examples, code, references, quiz explanations, and exercises.
 
 ## Curriculum progress
 
 | Course | Planned units | Repository documentation | Learning mastery |
 |---|---:|---|---|
 | 1. Computer Graphics & 3D Assets | 7 | Lessons 1–7 documented | Not yet individually assessed in this repository |
-| 2. 3D Generation & Reconstruction | 9 | Lessons 8–11 in progress; 8–10 documented | Not yet individually assessed |
+| 2. 3D Generation & Reconstruction | 9 | Lessons 8–14 in progress; 8–12 and 14 documented, 13 taught but awaiting archival | Not yet individually assessed |
 | 3. 3D Data Production & Quality | 9 | Planned | Not started |
 | 4. Model Evaluation & Benchmark | 8 | Planned | Not started |
 | 5. Game Production & Technical Art | 9 | Planned | Not started |
