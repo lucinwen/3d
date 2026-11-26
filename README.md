@@ -6,10 +6,15 @@
 
 > 内容原则：区分数学原理、工程实践、示例阈值与真实测试结果；不把示意数据写成实测结论。课程按知识单元逐讲学习，不跳课、不把多个单元合并成速记。
 
+## AI Agent 入门
+- [AGENTS.md](AGENTS.md)：所有协作者必须先读的项目总指令
+- [当前项目状态](docs/03-project-state.md)
+- [Agent 交接协议](docs/04-agent-handoff.md)
+
 ## 导航
 - [六课程总规划](docs/00-curriculum-roadmap.md)
 - [教学与验收规范](docs/01-teaching-standard.md)
-- [前十讲索引](lessons/README.md)
+- [前十一讲索引](lessons/README.md)
 
 ## 学习原则
 每讲统一采用：概念 → 原理 → 数据结构 → 算法 → 工程实现 → 评价指标 → 实际案例 → 面试追问 → 小测。
