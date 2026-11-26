@@ -37,8 +37,9 @@ Lessons 1–7 were reconstructed as structured summaries from available prior-co
 - Lesson 8: Text-to-3D — documented.
 - Lesson 9: Image-to-3D — documented.
 - Lesson 10: Multi-view Reconstruction — documented.
-- Lesson 11: NeRF — current lesson.
-- Next: Lesson 12, 3D Gaussian Splatting.
+- Lesson 11: NeRF — documented; assessment not verified.
+- Lesson 12: 3D Gaussian Splatting — documented; assessment not verified; current active unit.
+- Next: Lesson 13, SDF.
 
 ## Known content risks to review
 
