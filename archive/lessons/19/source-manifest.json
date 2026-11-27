@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "lesson": 19,
+  "title": "Semantic Annotation & Part Labeling",
+  "date": "2026-11-27",
+  "timezone": "Asia/Shanghai",
+  "source_status": "authored-current-turn",
+  "source_kind": "complete_prepared_assistant_teaching_response",
+  "source_message_id": null,
+  "scope": "Current Lesson 19 teaching response only; does not recover past lessons",
+  "transcript_path": "archive/lessons/19/transcript.md",
+  "github_readable_edition": "lessons/lesson-19-semantic-annotation-part-labeling.md",
+  "display_transform": "Replace [R#] references with the exact GenUI citation tokens in citation-map.json; omit redundant Markdown reference definitions. All other authored lesson content is unchanged.",
+  "local_roundtrip_verified": true,
+  "chat_ui_export_independently_verified": false,
+  "historical_verbatim_claim": false,
+  "content_inventory": {
+    "nine_teaching_sections": 9,
+    "interview_questions_with_followups_and_answers": 8,
+    "objective_quiz_questions_with_explanations": 10,
+    "open_questions_with_reference_answers": 3,
+    "mermaid_diagrams": 1,
+    "external_or_generated_raster_images": 0,
+    "executable_examples": 1,
+    "actual_run_reports": 1
+  },
+  "verification": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "lab_executed": true,
+    "integrator_rerun_report_identical": true,
+    "remote_publication_evidence": "Recorded separately after GitHub commit and readback; inspect delivery-verification.json if present."
+  },
+  "limitations": [
+    "This is the retained authored response source, not a recovered or independently exported chat UI transcript.",
+    "Synthetic examples do not establish real-world annotation quality.",
+    "Historical lesson files 13 and 17 remain missing; original transcripts/images for lessons 1-18 remain incompletely recovered."
+  ],
+  "files": [
+    {
+      "path": "lessons/lesson-19-semantic-annotation-part-labeling.md",
+      "bytes": 45497,
+      "sha256": "4867eeda98f8404d8551242fe71fb04b1f38061686a96f643efa15041ea34607"
+    },
+    {
+      "path": "archive/lessons/19/transcript.md",
+      "bytes": 45627,
+      "sha256": "8bb5eb7fa66350749f93afac176e9268a8deea81eae3edef094fd18ae95679f7"
+    },
+    {
+      "path": "archive/lessons/19/user-request.md",
+      "bytes": 151,
+      "sha256": "2ff46939f761e3ccbcf8238e627185812c167884ce56e030af6737190938af6d"
+    },
+    {
+      "path": "archive/lessons/19/citation-map.json",
+      "bytes": 1751,
+      "sha256": "01ff7cb1c35c014c6bf3198b8044af5c04ea2d199c099383b8497e90101449f3"
+    },
+    {
+      "path": "archive/lessons/19/assets/annotation-review-flow.mmd",
+      "bytes": 451,
+      "sha256": "e1c4901548e85b56ede714c8ff435016df367a8c4d6e9f618938fc50108c7817"
+    },
+    {
+      "path": "examples/lesson19/annotation_lab.py",
+      "bytes": 10421,
+      "sha256": "0501df3b946c9a27a97c56157d7c5e7f962d4c2eb94d710ea0d8ab7d85aa6102"
+    },
+    {
+      "path": "examples/lesson19/README.md",
+      "bytes": 5521,
+      "sha256": "2f392efdf2e97184a7346fa25943b48e9299826c3ba9550b4e6c4c838601c476"
+    },
+    {
+      "path": "examples/lesson19/example-report.json",
+      "bytes": 4593,
+      "sha256": "83131d0c595912b27658e180072a845c833888cb94c471edaa2cd1dcf9d714ae"
+    }
+  ]
+}

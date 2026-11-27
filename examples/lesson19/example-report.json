@@ -1,0 +1,260 @@
+{
+  "experiment": "synthetic teaching demonstration; not a model benchmark",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "schema_version": "lesson19-demo-v1",
+  "geometry_revision": "toy-three-triangles-v1",
+  "geometry_digest": "1de2eded8e3b5ac259984cae036332c2d559fb2415c56c266a95d9cdd6b31ad7",
+  "coordinates": {
+    "units": "metres",
+    "handedness": "right",
+    "up": "+Z",
+    "space": "asset-local"
+  },
+  "class_names": {
+    "0": "seat_demo",
+    "1": "back_demo",
+    "-1": "unlabeled"
+  },
+  "face_area_m2": [
+    1.0,
+    2.0,
+    1.0
+  ],
+  "seed": 19,
+  "samples": {
+    "points": [
+      [
+        0.5705521948097555,
+        0.49743429284613044,
+        1.0
+      ],
+      [
+        0.7214024068179169,
+        0.42239855130170895,
+        2.0
+      ],
+      [
+        1.8183816336646703,
+        0.3901608081382037,
+        1.0
+      ],
+      [
+        0.07217250057891612,
+        0.7513893662005928,
+        0.0
+      ],
+      [
+        1.6624265531721627,
+        0.24239189492427304,
+        1.0
+      ],
+      [
+        0.9385941746944343,
+        0.43010561196982705,
+        1.0
+      ],
+      [
+        0.7338518092504845,
+        0.43681230738217575,
+        2.0
+      ],
+      [
+        3.406791946973114,
+        0.10635409371337659,
+        1.0
+      ],
+      [
+        0.7291494503446468,
+        0.03670309846380943,
+        1.0
+      ],
+      [
+        0.10946896084988447,
+        0.24467106155471202,
+        2.0
+      ],
+      [
+        0.8330433279766511,
+        0.45614270922577316,
+        2.0
+      ],
+      [
+        0.870849553879478,
+        0.4602974591429474,
+        1.0
+      ]
+    ],
+    "source_face_id": [
+      1,
+      2,
+      1,
+      0,
+      1,
+      1,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1
+    ],
+    "barycentric": [
+      [
+        0.3599276584514307,
+        0.14263804870243887,
+        0.49743429284613044
+      ],
+      [
+        0.2169002452893326,
+        0.36070120340895845,
+        0.42239855130170895
+      ],
+      [
+        0.15524378344562872,
+        0.4545954084161676,
+        0.3901608081382037
+      ],
+      [
+        0.21252438350994907,
+        0.03608625028945806,
+        0.7513893662005928
+      ],
+      [
+        0.3420014667826863,
+        0.4156066382930407,
+        0.24239189492427304
+      ],
+      [
+        0.33524584435656435,
+        0.23464854367360857,
+        0.43010561196982705
+      ],
+      [
+        0.19626178799258198,
+        0.36692590462524227,
+        0.43681230738217575
+      ],
+      [
+        0.04194791954334498,
+        0.8516979867432785,
+        0.10635409371337659
+      ],
+      [
+        0.7810095389500289,
+        0.1822873625861617,
+        0.03670309846380943
+      ],
+      [
+        0.7005944580203458,
+        0.054734480424942236,
+        0.24467106155471202
+      ],
+      [
+        0.12733562678590127,
+        0.4165216639883256,
+        0.45614270922577316
+      ],
+      [
+        0.3219901523871831,
+        0.2177123884698695,
+        0.4602974591429474
+      ]
+    ],
+    "semantic_id": [
+      1,
+      -1,
+      1,
+      0,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "reviewed": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    "train_mask": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  },
+  "checks": {
+    "barycentric_reconstruction": "passed",
+    "source_label_mapping": "passed",
+    "unlabeled_excluded": "passed",
+    "unreviewed_excluded": "passed",
+    "reordered_mesh_rejected": true,
+    "surface_sampling_frequencies_10000": [
+      0.2547,
+      0.4901,
+      0.2552
+    ],
+    "all_gt_ignored_returns_null": "passed"
+  },
+  "semantic_metric_example": {
+    "confusion_columns": [
+      0,
+      1,
+      "abstain"
+    ],
+    "confusion": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "iou": [
+      0.3333333333333333,
+      0.5
+    ],
+    "mean_iou": 0.41666666666666663,
+    "accuracy": 0.5,
+    "valid_gt_count": 4,
+    "prediction_abstentions_on_valid_gt": 1
+  },
+  "merged_instance_counterexample": {
+    "semantic_accuracy": 1.0,
+    "gt_instances": 2,
+    "predicted_instances": 1,
+    "pair_iou": [
+      0.5,
+      0.5
+    ],
+    "matches_at_strict_iou_gt_0_5": 0,
+    "note": "This is a toy matching counterexample, not a complete PQ/AP evaluator."
+  }
+}

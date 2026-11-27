@@ -25,6 +25,8 @@ Do not rely on chat summaries when repository sources are available. Do not assu
 - Preserve the six-course curriculum and its order.
 - Teach exactly one knowledge unit per lesson.
 - Do not merge, skip, or silently reorder units.
+- When the learner explicitly requests the next lesson, continue that lesson without requiring an unsubmitted quiz first. Preserve unassessed learner status; teaching progression is not evidence of mastery.
+- Record any user-directed course sequence change and map prior topics to their current coverage; never discard a topic merely because numbering changed.
 - Each knowledge unit must use: Concept → Principle → Data Structures → Algorithms → Engineering Implementation → Evaluation Metrics → Practical Case → Interview Follow-ups → Quiz.
 - Explain fundamentals before advanced details; define every symbol, unit, coordinate convention, and assumption.
 - Distinguish established facts, paper-specific methods, engineering recommendations, illustrative examples, and user-project measurements.
@@ -77,4 +79,13 @@ A lesson is not "mastered" until the learner has completed its quiz/open questio
 - needs-review
 
 Repository presence means documented, not necessarily mastered.
-\n\n## Verbatim archive rule\nWhen the learner asks for verbatim archival, preserve the exact original assistant message and asset binaries without paraphrase. If the exact source or image binary cannot be accessed, label it missing or reconstructed; never claim a reconstructed lesson is verbatim. Follow archive/README.md. Keep transcripts, image asset manifests, image prompts, Q&A, quizzes and code mapped to their lesson and original order.\n\n\n## Lesson 16\nLesson 16 Retopology teaching archive: lessons/lesson-16-retopology.md. Preserve the distinction between Mesh Simplification and Retopology, and between automatic quad remeshing and animation-aware production topology. Quiz and practice are not assessed until learner submits answers/results.\n
+
+## Verbatim archive rule
+
+When the learner asks for verbatim archival, preserve the exact original assistant message and asset binaries without paraphrase. If the exact source or image binary cannot be accessed, label it missing or reconstructed; never claim a reconstructed lesson is verbatim. Follow archive/README.md. Keep transcripts, image asset manifests, image prompts, Q&A, quizzes and code mapped to their lesson and original order.
+
+For a newly authored lesson, retain the complete authored teaching source and record whether it is a source document or a verified export of the delivered chat message. Equality between two local copies does not prove recovery of a historical chat transcript. Preserve the current source before publishing; do not describe a shortened rewrite as the complete lesson.
+
+## Lesson 16
+
+Lesson 16 Retopology teaching archive: lessons/lesson-16-retopology.md. Preserve the distinction between Mesh Simplification and Retopology, and between automatic quad remeshing and animation-aware production topology. Quiz and practice are not assessed until learner submits answers/results.

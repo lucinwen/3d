@@ -64,3 +64,12 @@ Before marking a lesson complete:
 5. Record any unavailable assets or source ranges.
 6. Commit to GitHub and fetch the committed files again.
 7. Only then mark the lesson archive as verified.
+
+## Current-turn source retention, starting with Lesson 19
+
+Newly authored lesson responses can be saved in full before they are delivered. Record this as `authored-current-turn`, distinct from a recovered/exported historical transcript. This status records creation provenance and does not claim recovery of earlier missing messages.
+
+For Lesson 19, `archive/lessons/19/transcript.md` retains the complete prepared assistant teaching response, including equations, code excerpts, Mermaid source, all interview questions and answers, quiz questions and explanations, references, and delivery notes. `lessons/lesson-19-semantic-annotation-part-labeling.md` is the GitHub-readable edition; only citation display is transformed using the retained citation map. The transform is reversible and locally checked. A matching pair of source files does not establish an independently verified chat UI export; that field remains explicitly unverified.
+
+The per-lesson source and asset manifests record hashes, source scope, code, actual synthetic run results and diagram source. No external/generated image binaries are used in Lesson 19. Original image recovery for Lessons 1–18 is still incomplete. No Lesson 13 or Lesson 17 teaching file was present in the remote tree inspected for this update.
+

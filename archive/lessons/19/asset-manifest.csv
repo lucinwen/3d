@@ -1,0 +1,9 @@
+asset_id,kind,path,status,sha256,notes
+lesson19-01,text-source,lessons/lesson-19-semantic-annotation-part-labeling.md,authored-current-turn,4867eeda98f8404d8551242fe71fb04b1f38061686a96f643efa15041ea34607,New source created for Lesson 19; not a recovered historical asset
+lesson19-02,text-source,archive/lessons/19/transcript.md,authored-current-turn,8bb5eb7fa66350749f93afac176e9268a8deea81eae3edef094fd18ae95679f7,New source created for Lesson 19; not a recovered historical asset
+lesson19-03,text-source,archive/lessons/19/user-request.md,authored-current-turn,2ff46939f761e3ccbcf8238e627185812c167884ce56e030af6737190938af6d,New source created for Lesson 19; not a recovered historical asset
+lesson19-04,text-source,archive/lessons/19/citation-map.json,authored-current-turn,01ff7cb1c35c014c6bf3198b8044af5c04ea2d199c099383b8497e90101449f3,New source created for Lesson 19; not a recovered historical asset
+lesson19-05,diagram-source,archive/lessons/19/assets/annotation-review-flow.mmd,authored-current-turn,e1c4901548e85b56ede714c8ff435016df367a8c4d6e9f618938fc50108c7817,New source created for Lesson 19; not a recovered historical asset
+lesson19-06,code,examples/lesson19/annotation_lab.py,authored-current-turn,0501df3b946c9a27a97c56157d7c5e7f962d4c2eb94d710ea0d8ab7d85aa6102,New source created for Lesson 19; not a recovered historical asset
+lesson19-07,text-source,examples/lesson19/README.md,authored-current-turn,2f392efdf2e97184a7346fa25943b48e9299826c3ba9550b4e6c4c838601c476,New source created for Lesson 19; not a recovered historical asset
+lesson19-08,run-report,examples/lesson19/example-report.json,authored-current-turn,83131d0c595912b27658e180072a845c833888cb94c471edaa2cd1dcf9d714ae,New source created for Lesson 19; not a recovered historical asset

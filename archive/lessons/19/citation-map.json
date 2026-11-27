@@ -1,0 +1,61 @@
+{
+  "purpose": "Lossless citation-display mapping between GitHub lesson and current assistant response source",
+  "retrieved_on": "2026-11-27",
+  "citations": [
+    {
+      "id": "R1",
+      "web_reference": "turn602165131view0",
+      "url": "https://arxiv.org/abs/1812.02713"
+    },
+    {
+      "id": "R2",
+      "web_reference": "turn716651962view1",
+      "url": "https://arxiv.org/html/1801.00868v3"
+    },
+    {
+      "id": "R3",
+      "web_reference": "turn566582968view2",
+      "url": "https://github.com/daerduoCarey/partnet_dataset"
+    },
+    {
+      "id": "R4",
+      "web_reference": "turn280485620view0",
+      "url": "https://docs.pytorch.org/docs/2.15/generated/torch.nn.CrossEntropyLoss.html"
+    },
+    {
+      "id": "R5",
+      "web_reference": "turn716651962view0",
+      "url": "https://arxiv.org/abs/2210.03105"
+    },
+    {
+      "id": "R6",
+      "web_reference": "turn543507706view1",
+      "url": "https://github.com/ScanNet/ScanNet/blob/master/BenchmarkScripts/3d_evaluation/evaluate_semantic_instance.py"
+    },
+    {
+      "id": "R7",
+      "web_reference": "turn102591542view1",
+      "url": "https://github.com/ScanNet/ScanNet"
+    },
+    {
+      "id": "R8",
+      "web_reference": "turn735816427search1",
+      "url": "https://web.stanford.edu/~rqi/pointnet/"
+    },
+    {
+      "id": "R9",
+      "web_reference": "turn399520534academia26",
+      "url": "https://arxiv.org/abs/2304.02643"
+    },
+    {
+      "id": "R10",
+      "web_reference": "turn735816427search6",
+      "url": "https://proceedings.mlr.press/v70/guo17a.html"
+    },
+    {
+      "id": "R11",
+      "web_reference": "turn602165131view1",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.jaccard_score.html"
+    }
+  ]
+}

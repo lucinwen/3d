@@ -1,54 +1,79 @@
 # Project State — 3D AI Data Academy
 
-Last updated: 2026-11-27
+Last updated: 2026-11-27 (Asia/Shanghai)
 
 ## Current mission
-Build a durable, multi-agent-maintainable learning and engineering repository for six courses and 51 knowledge units. The learner's target use includes Tencent Hunyuan 3D / AI Data technical interview preparation and long-term engineering capability.
 
-## Current repository state
-- Repository: https://github.com/lucinwen/3d
-- Default branch: main
-- Six-course roadmap and nine-part teaching standard documented.
-- Lessons 1–18 have index entries.
-- Structured teaching files exist for Lessons 1–12 and 14–18.
-- Lesson 13 SDF was taught in chat; exact lesson source recovery remains pending.
-- Lesson 18 Data Cleaning & Deduplication is the current active teaching unit.
-- Agent onboarding and handoff protocol documented.
+Build a durable, multi-agent-maintainable repository for six courses and 51 knowledge units. The learner uses the course for 3D / AI Data technical interviews and long-term engineering capability. Keep the complete knowledge chain and enable another AI to continue from repository evidence.
 
-## Important completeness caveat
-Some earlier lessons were reconstructed or condensed for repository maintenance and are not verified verbatim transcripts. Exact transcript and original image recovery is a separate task tracked in archive/README.md. Do not claim that every historical assistant message or original image binary has been archived verbatim unless each source has been recovered and checked. The current lesson files are structured teaching archives, not byte-for-byte exports of chat UI messages.
+## Current unit and learner state
+
+- Active unit: Course 3, Lesson 19 — Semantic Annotation & Part Labeling.
+- Teaching status: taught in the current lesson delivery; individual assessment not verified.
+- Latest explicit learner request: semantic annotation, instance segmentation, part labeling, point/face labels, automatic annotation and human review.
+- Next planned unit: Lesson 20 — Data Quality Scoring, when the learner requests continuation.
+- No learner quiz answers or practice results have been verified for any lesson. Do not infer mastery from teaching progress, code executed by an agent, or a file's presence.
+- A learner request to continue authorizes the next lesson even if an earlier quiz is unsubmitted. Keep assessment outstanding without blocking requested teaching.
+
+## Repository evidence and completeness
+
+- Repository: https://github.com/lucinwen/3d ; default branch: main.
+- Pre-update remote tree inspected on 2026-11-27 at commit `3909814f076e9a41a5e86e24afc8b4523250ccec`.
+- That tree contains historical teaching files for Lessons 1–12, 14–16 and 18.
+- It contains no Lesson 13 or Lesson 17 teaching file. The previous Lesson 17 index link and state assertion were incorrect; both are corrected in this update.
+- Lesson 19 adds a complete newly authored teaching source, code example and source/asset manifests. Its publication verification is recorded by the integrator after upload; this state file alone does not prove a successful GitHub write.
+- Lesson index, current roadmap and agent handoff are maintained together.
+
+Historical structured teaching files include condensed or reconstructed material. They are not verified byte-for-byte chat exports. Exact transcript and original-image recovery for Lessons 1–18 remains incomplete. The fact that a historical lesson was taught does not prove that its original message or original image binary is now available.
+
+For Lesson 19, distinguish the newly authored complete teaching source and its retained copy from an independently exported chat transcript. Use the per-lesson source manifest for exact scope, source hash, artifact inventory and verification state. Do not extend Lesson 19's evidence to earlier lessons.
 
 ## Curriculum progress
-| Course | Planned units | Repository documentation | Learning mastery |
+
+| Course | Units | Documentation | Learning assessment |
 |---|---:|---|---|
-| 1. Computer Graphics & 3D Assets | 7 | Lessons 1–7 indexed | Not yet individually assessed in this repository |
-| 2. 3D Generation & Reconstruction | 9 | Lessons 8–16 indexed; Lesson 13 source pending | Not yet individually assessed |
-| 3. 3D Data Production & Quality | 9 | Lessons 17–18 documented; remaining units planned | Not yet individually assessed |
+| 1. Computer Graphics & 3D Assets | 7 | Lessons 1–7 teaching files exist | Not verified |
+| 2. 3D Generation & Reconstruction | 9 | Lessons 8–12 and 14–16 exist; 13 missing | Not verified |
+| 3. 3D Data Production & Quality | 9 | 17 source/file missing; 18 structured file exists; 19 current delivery; 20–25 planned | Not verified |
 | 4. Model Evaluation & Benchmark | 8 | Planned | Not started |
 | 5. Game Production & Technical Art | 9 | Planned | Not started |
 | 6. Agent Harness & Engineering | 9 | Planned | Not started |
 
 ## Current lesson sequence
-- Lesson 17: 3D Data Acquisition & Dataset Construction — taught; assessment not verified.
-- Lesson 18: Data Cleaning & Deduplication — documented and taught; quiz and open-ended answers pending.
-- Next after Lesson 18 assessment: Lesson 19, Semantic Annotation & Part Labeling.
 
-## Lesson 18 key topics
-File/geometry/topology/point-cloud/appearance/semantic anomalies; Bounding Box, Z-score, MAD, IQR, Mahalanobis, Isolation Forest, LOF; SHA256; Canonicalization; Geometry Fingerprint; Chamfer, ICP, multi-view similarity; ANN; Duplicate Graph; Precision/Recall/F1; non-destructive cleaning; million-scale pipeline.
+| Lesson | Topic | Evidence/state |
+|---|---|---|
+| 17 | 3D Data Acquisition & Dataset Construction | Previously taught in chat; repository teaching file missing; assessment unverified |
+| 18 | Data Cleaning & Deduplication | Structured teaching file exists; historical verbatim/image recovery incomplete; assessment unverified |
+| 19 | Semantic Annotation & Part Labeling | Current newly authored lesson and engineering example; assessment unverified |
+| 20 | Data Quality Scoring | Next planned unit; not yet taught |
 
-## Known content risks to review
-- Thresholds in examples are illustrative, not universal production standards.
-- Distinguish exact file duplicate from geometric duplicate and semantic near-duplicate.
-- Similarity is not sufficient evidence to delete an asset.
-- ANN retrieves candidates; it does not prove geometric identity.
-- Cleaning rules must be task-specific and preserve long-tail/rare valid samples.
-- Preserve raw data and record repair provenance.
-- Distinguish structured lesson archives from verbatim transcripts and original image binaries.
+The course 3 sequence differs from the first roadmap. `docs/00-curriculum-roadmap.md` records the revision and maps every old topic to its current coverage. Format parsing, units/coordinates, texture dependencies and metadata standardization still require explicit coverage checks; do not mark a mapped topic complete merely because a related term appears in Lesson 18.
 
-## Immediate priorities
-1. Complete Lesson 18 quiz and high-level interview questions; assess answers before advancing.
-2. Continue exact transcript recovery for Lessons 1–18; do not substitute summaries.
-3. Recover original image binaries where available; otherwise mark image assets as reference-only/missing.
-4. Recover and archive Lesson 13 SDF from its original source.
-5. Add validated, reproducible experiments and versioned engineering examples.
-6. Keep lesson index, project state and handoff current.
+## Lesson 19 artifacts and focus
+
+- `lessons/lesson-19-semantic-annotation-part-labeling.md`: complete current teaching source.
+- `archive/lessons/19/transcript.md`: retained current teaching source, with exact provenance defined by the manifest.
+- `archive/lessons/19/source-manifest.json` and `asset-manifest.csv`: origin, completeness and asset inventory.
+- `examples/lesson19/`: executable synthetic-data example and its run instructions.
+- Core concepts: semantic class, object instance, part class, part instance, hierarchy, point/vertex/face labels, geometry-index binding, annotation ontology, automatic proposals, review and adjudication, ignore masks, semantic/instance/part metrics.
+- Synthetic examples and model probabilities are not measurements from the learner's project. Running the example does not validate a production annotator.
+
+## Content risks to preserve in later work
+
+- Thresholds and illustrative numbers are examples, not universal production standards.
+- In Lesson 18, similarity/ANN retrieval does not prove duplicate identity or justify deletion; raw data and long-tail valid assets must remain traceable.
+- In Lesson 19, object/part semantic IDs and instance IDs have different meanings. A connected component or material slot is not automatically a semantic part.
+- Labels tied to point/vertex/face indices must bind to the exact geometry revision and element ordering. Remeshing or reindexing can invalidate correspondence.
+- Ground-truth ignore masks must not let predictions hide mistakes by emitting ignore on valid ground truth.
+- Automatic pre-labels, reviewer decisions and adjudicated ground truth must have separate provenance/status. High confidence is not a correctness guarantee.
+- Metric numbers depend on representation, sampling, class set, ignore policy, matching and aggregation protocol.
+- Never label summaries, image queries or replacement images as recovered historical originals.
+
+## Next actions
+
+1. Complete publication/readback verification of the current deliverable and record the actual commit in the delivery report; do not infer it from a planned URL.
+2. If the learner submits Lesson 19 answers or code, assess them and update learning state from evidence. If they request Lesson 20, teach it without inventing prior assessment.
+3. Recover missing Lesson 13 and Lesson 17 teaching sources from original messages/exports before claiming exact archival.
+4. Continue original-text and original-image recovery for Lessons 1–18; retain explicit missing/reference-only states.
+5. Keep current source, code, answer explanations, diagrams and provenance together for every new lesson.
