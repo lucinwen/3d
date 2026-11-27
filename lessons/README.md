@@ -1,25 +1,37 @@
-# 前十四讲课程归档
+# 课程教学归档索引（第 1–18 讲）
 
-> 状态说明：本目录将前十讲整理为可持续维护的课程文档。第 8–10 讲依据本对话中已展开的教学内容整理；第 1–7 讲依据此前课程主题与已检索到的历史教学摘要重建为结构化归档。若要做到逐字无遗漏的历史原文复刻，仍需将原始完整对话导出后逐段校对；本仓库不把摘要重建冒充逐字原文。
+> 教学文档、历史逐字转录和原始图片是不同的归档对象。请阅读 [历史原文与图片归档规范](../archive/README.md)。不要把结构化教学稿冒充逐字历史原文。
 
-| 讲次 | 课程 | 主题 | 文件 |
+| 讲次 | 课程 | 主题 | 文件/状态 |
 |---|---|---|---|
 | 1 | 课程 1 | Mesh、Geometry、Topology | [lesson-01](lesson-01-mesh-geometry-topology.md) |
 | 2 | 课程 1 | UV 与纹理映射 | [lesson-02](lesson-02-uv-texturing.md) |
 | 3 | 课程 1 | Material 与 PBR | [lesson-03](lesson-03-material-pbr.md) |
-| 4 | 课程 1 | Shader 与 NPR | [lesson-04-shader-npr.md](lesson-04-shader-npr.md) |
-| 5 | 课程 1 | Rendering Pipeline | [lesson-05-rendering-pipeline.md](lesson-05-rendering-pipeline.md) |
-| 6 | 课程 1 | Camera 与 Coordinate System | [lesson-06-camera-coordinate-system.md](lesson-06-camera-coordinate-system.md) |
-| 7 | 课程 1 | 3D Asset 综合质量评测 | [lesson-07-asset-quality.md](lesson-07-asset-quality.md) |
-| 8 | 课程 2 | Text-to-3D | [lesson-08-text-to-3d.md](lesson-08-text-to-3d.md) |
-| 9 | 课程 2 | Image-to-3D | [lesson-09-image-to-3d.md](lesson-09-image-to-3d.md) |
-| 10 | 课程 2 | Multi-view Reconstruction | [lesson-10-multiview-reconstruction.md](lesson-10-multiview-reconstruction.md) |
-| 11 | 课程 2 | NeRF | [lesson-11-nerf.md](lesson-11-nerf.md) |
-| 12 | 课程 2 | 3D Gaussian Splatting | [lesson-12-3d-gaussian-splatting.md](lesson-12-3d-gaussian-splatting.md) |\n| 13 | 课程 2 | SDF | 历史教学稿待恢复归档 |\n| 14 | 课程 2 | Diffusion | [lesson-14-diffusion.md](lesson-14-diffusion.md) |\n| 15 | 课程 2 | Shape Generation | [lesson-15-shape-generation.md](lesson-15-shape-generation.md) |\n| 16 | 课程 2 | Retopology | [lesson-16-retopology.md](lesson-16-retopology.md) |\n| 13 | 课程 2 | SDF | 教学内容已在对话中讲授，仓库文档待归档 |\n| 14 | 课程 2 | Diffusion | [lesson-14-diffusion.md](lesson-14-diffusion.md) |
+| 4 | 课程 1 | Shader 与 NPR | [lesson-04](lesson-04-shader-npr.md) |
+| 5 | 课程 1 | Rendering Pipeline | [lesson-05](lesson-05-rendering-pipeline.md) |
+| 6 | 课程 1 | Camera 与 Coordinate System | [lesson-06](lesson-06-camera-coordinate-system.md) |
+| 7 | 课程 1 | 3D Asset 综合质量评测 | [lesson-07](lesson-07-asset-quality.md) |
+| 8 | 课程 2 | Text-to-3D | [lesson-08](lesson-08-text-to-3d.md) |
+| 9 | 课程 2 | Image-to-3D | [lesson-09](lesson-09-image-to-3d.md) |
+| 10 | 课程 2 | Multi-view Reconstruction | [lesson-10](lesson-10-multiview-reconstruction.md) |
+| 11 | 课程 2 | NeRF | [lesson-11](lesson-11-nerf.md) |
+| 12 | 课程 2 | 3D Gaussian Splatting | [lesson-12](lesson-12-3d-gaussian-splatting.md) |
+| 13 | 课程 2 | SDF | 历史教学内容待恢复归档 |
+| 14 | 课程 2 | Diffusion | [lesson-14](lesson-14-diffusion.md) |
+| 15 | 课程 2 | Shape Generation | [lesson-15](lesson-15-shape-generation.md) |
+| 16 | 课程 2 | Retopology | [lesson-16](lesson-16-retopology.md) |
+| 17 | 课程 3 | 3D Data Acquisition & Dataset Construction | [lesson-17](lesson-17-data-acquisition-dataset-construction.md) |
+| 18 | 课程 3 | Data Cleaning & Deduplication | [lesson-18](lesson-18-data-cleaning-deduplication.md) |
 
-## 每讲固定结构
+## 每讲固定教学结构
 
 概念 → 原理 → 数据结构 → 算法 → 工程实现 → 评价指标 → 实际案例 → 面试追问 → 小测。
 
-第 1–7 讲为结构化重建版本，不是逐字历史对话备份；第 8–10 讲为整理版；第 11–12 讲为课程教学归档；第 13 讲已授课但尚待归档；第 14 讲已建立教学归档。所有讲次仍需通过练习和测验后才能标记为 mastered。每份文档还应逐步补齐可复现代码、依赖锁定、参考文献和答案解析。
-\n## 历史原文与图片归档\n\n请先阅读 [archive/README.md](../archive/README.md)。本目录中的课程教学文档不自动等于逐字历史转录；原文、重建稿和缺失素材必须明确标注。\n
+## 完整性说明
+
+- 第 1–7 讲：结构化重建稿，不是已核验的逐字历史转录。
+- 第 8–10 讲：整理版教学归档。
+- 第 11–12、14–18 讲：结构化教学归档。
+- 第 13 讲：已在聊天中授课，原始教学文件待恢复。
+- 聊天图片查询、图片引用和原始图片二进制文件必须分别记录。没有取得原始文件时，不得声称图片已原样归档。
+- 所有讲次均需以学习者完成练习和测验的证据决定是否 mastered。
