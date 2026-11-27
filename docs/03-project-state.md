@@ -21,7 +21,7 @@ Build a durable, multi-agent-maintainable repository for six courses and 51 know
 - Pre-update remote tree inspected on 2026-11-27 at commit `3909814f076e9a41a5e86e24afc8b4523250ccec`.
 - That tree contains historical teaching files for Lessons 1–12, 14–16 and 18.
 - It contains no Lesson 13 or Lesson 17 teaching file. The previous Lesson 17 index link and state assertion were incorrect; both are corrected in this update.
-- Lesson 19 adds a complete newly authored teaching source, code example and source/asset manifests. Its publication verification is recorded by the integrator after upload; this state file alone does not prove a successful GitHub write.
+- Lesson 19 adds a complete newly authored teaching source, code example and source/asset manifests. Published in content commit `0346bb3695a727c86b59ebfb02c7f80c28d1c967`; all 18 release files were fetched from that exact commit and matched against the prepared UTF-8 source. See `archive/lessons/19/delivery-verification.json` for hashes and execution evidence.
 - Lesson index, current roadmap and agent handoff are maintained together.
 
 Historical structured teaching files include condensed or reconstructed material. They are not verified byte-for-byte chat exports. Exact transcript and original-image recovery for Lessons 1–18 remains incomplete. The fact that a historical lesson was taught does not prove that its original message or original image binary is now available.
@@ -72,7 +72,7 @@ The course 3 sequence differs from the first roadmap. `docs/00-curriculum-roadma
 
 ## Next actions
 
-1. Complete publication/readback verification of the current deliverable and record the actual commit in the delivery report; do not infer it from a planned URL.
+1. Publication/readback completed for the Lesson 19 content release: [0346bb3](https://github.com/lucinwen/3d/commit/0346bb3695a727c86b59ebfb02c7f80c28d1c967). A following metadata commit records the verification; further edits require their own verification.
 2. If the learner submits Lesson 19 answers or code, assess them and update learning state from evidence. If they request Lesson 20, teach it without inventing prior assessment.
 3. Recover missing Lesson 13 and Lesson 17 teaching sources from original messages/exports before claiming exact archival.
 4. Continue original-text and original-image recovery for Lessons 1–18; retain explicit missing/reference-only states.

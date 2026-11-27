@@ -76,7 +76,7 @@ Curriculum Architect maintains dependencies; Research Agent checks primary sourc
 
 ## Publication and verification record
 
-This document describes the prepared Lesson 19 update. It does not itself assert a completed GitHub upload. The integrator must record the actual resulting commit/link and remote readback evidence in the delivery report, together with which code was executed and which assets remain missing. Do not replace that evidence with a constructed file URL.
+Content commit: [0346bb3695a727c86b59ebfb02c7f80c28d1c967](https://github.com/lucinwen/3d/commit/0346bb3695a727c86b59ebfb02c7f80c28d1c967). All 18 files were fetched from that exact GitHub commit and matched the complete prepared UTF-8 source. The lab was rerun by the integrator with exit code 0; its JSON matched the committed report. Exact file hashes, geometry/ignore checks, citation roundtrip scope and historical gaps are recorded in `archive/lessons/19/delivery-verification.json`. This verification note and report are published in a following metadata commit. The final chat UI has not been independently exported and compared; do not extend file-integrity evidence into such a claim.
 
 ## Prompt for a new AI
 
