@@ -1,0 +1,14 @@
+{
+  "verification_type": "actual_subprocess_execution",
+  "command": "python examples/lesson21/versioning_lineage_lab.py --output examples/lesson21/example-report.json",
+  "python_version": "3.12.14",
+  "exit_code": 0,
+  "stdout_exactly_equals_report": true,
+  "script_sha256": "ed9dd5e2e380d723b34d62dc26581978971423fe8d4f733d9d0cd3a8a46378c4",
+  "report_sha256": "eccdcb8f08e332ed3b4a2021babc60697881b02aba15e3f910986cb0d5734c17",
+  "same_environment_rerun_release_manifests_equal": true,
+  "same_environment_rerun_recipe_ids_equal": true,
+  "fault_count": 7,
+  "all_faults_blocked_and_pointer_unchanged": true,
+  "scope": "synthetic local single-writer lab; not learner assessment or GPU training reproduction"
+}

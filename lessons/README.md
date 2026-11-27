@@ -1,4 +1,4 @@
-# 课程教学归档索引（第 1–20 讲）
+# 课程教学归档索引（第 1–21 讲）
 
 | 讲次 | 课程 | 主题 | 文件/状态 |
 |---|---|---|---|
@@ -22,9 +22,12 @@
 | 18 | 课程 3 | Data Cleaning & Deduplication | [lesson-18](lesson-18-data-cleaning-deduplication.md) |
 | 19 | 课程 3 | Semantic Annotation & Part Labeling | [lesson-19](lesson-19-semantic-annotation-part-labeling.md) |
 | 20 | 课程 3 | Data Quality Scoring | [lesson-20](lesson-20-data-quality-scoring.md) · [工程实验](../examples/lesson20/README.md) |
+| 21 | 课程 3 | Data Versioning & Data Lineage | [lesson-21](lesson-21-data-versioning-and-lineage.md) · [工程实验](../examples/lesson21/README.md) |
 
 每讲固定结构：概念 → 原理 → 数据结构 → 算法 → 工程实现 → 评价指标 → 实际案例 → 面试追问 → 小测。
 
 第 13、17 讲教学文件缺失；第 19、20 讲为新编完整教学源，不等于历史聊天恢复。历史原文与图片必须分别核验。所有讲次均需以学习者练习和测验决定是否 mastered。
 
-当前单元为第 20 讲；下一讲为第 21 讲 Data Versioning & Data Lineage。未提交的测验保持待验收。
+第 21 讲采用完整的新编教学源和单独来源清单，保存问答、小测、代码、报告与图示源；发布核验以[本讲回读记录](../archive/lessons/21/delivery-verification.json)为准。第 20 讲实验报告来源和聊天逐字一致性的本次核验边界见[项目状态](../docs/03-project-state.md)。
+
+当前单元为第 21 讲；下一讲为第 22 讲 Training Dataset Construction。未提交的测验保持待验收。

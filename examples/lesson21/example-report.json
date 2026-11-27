@@ -1,0 +1,163 @@
+{
+  "experiment": "actual execution on synthetic 2-asset/4-face data",
+  "python_version": "3.12.14",
+  "code_sha256": "ed9dd5e2e380d723b34d62dc26581978971423fe8d4f733d9d0cd3a8a46378c4",
+  "serialization": "sorted UTF-8 JSON; str/int/bool/null/list/string-key dict; no floats",
+  "asset_count": 2,
+  "face_count": 4,
+  "release_count": 2,
+  "source_vs_canonical": {
+    "asset_id": "asset-A",
+    "family_id": "family-A",
+    "source_hash": "5230d7abaad5d1a366c30c9627071d23289bfe62a58dc84d928a10d1285f1930",
+    "canonical_mesh_hash": "6034a5b0b9a79d0cfa47f617f9677a53610b15bc24eedfc90e8b2cda6aa239e6",
+    "same_parsed_geometry": true,
+    "same_bytes": false
+  },
+  "releases": [
+    {
+      "id": "d3757b40a6f786951e442ed4bc71e76e05d680c80ec2d98655e1f140507ebed9",
+      "manifest": {
+        "kind": "release",
+        "schema_version": 1,
+        "dataset_name": "tiny-parts",
+        "ontology_hash": "1db4ffd7bbe4bad9e7c05364e63eac86cd8fc6b0ee9e81a378f717eec55ba80d",
+        "quality_policy_hash": "ed2f5cff5e0011a2319dd0eee9f192b882cd9247c5ce34258f77a4ecc845be96",
+        "recipe_hash": "8e6e12d2987ed41b597b27eb469db33b73353fdbdb1cf99719d7f21764215284",
+        "split_version": "fixed-family-split-v1",
+        "samples": [
+          {
+            "asset_id": "asset-A",
+            "family_id": "family-A",
+            "source_hash": "5230d7abaad5d1a366c30c9627071d23289bfe62a58dc84d928a10d1285f1930",
+            "mesh_hash": "6034a5b0b9a79d0cfa47f617f9677a53610b15bc24eedfc90e8b2cda6aa239e6",
+            "annotation_hash": "1ea216387de1299d005c7dbaadae12ff229d30f7c16907d4c2c4174724f167dd",
+            "split": "train"
+          },
+          {
+            "asset_id": "asset-B",
+            "family_id": "family-B",
+            "source_hash": "4703e1224ce24c2a8e053db8c4a697dbf66038cfcd773bba1b037199f5f9e877",
+            "mesh_hash": "30c390b1356d91e9ffc3afef2af67dfc69da5a93701156869a700ccc03b49ce6",
+            "annotation_hash": "3e0c04f22faa0882b847df115bfcc7bbc2bae22e8059037a925c07a94756c13b",
+            "split": "test"
+          }
+        ]
+      },
+      "closure_count": 11
+    },
+    {
+      "id": "994ed09f9b5cb00c768ae62d6f468d7f6906ddcd35260dbac6bdd0ebe18c5474",
+      "manifest": {
+        "kind": "release",
+        "schema_version": 1,
+        "dataset_name": "tiny-parts",
+        "ontology_hash": "1db4ffd7bbe4bad9e7c05364e63eac86cd8fc6b0ee9e81a378f717eec55ba80d",
+        "quality_policy_hash": "e5eb4822d460ca6d671dd5c9ea86283947784f90aad3f8d849d8e90730aa5ddc",
+        "recipe_hash": "8e51d15f94bebaaff0009fa46e595ccfad0e2260f0e25a2e5b6ab871b2578a4a",
+        "split_version": "fixed-family-split-v1",
+        "samples": [
+          {
+            "asset_id": "asset-A",
+            "family_id": "family-A",
+            "source_hash": "5230d7abaad5d1a366c30c9627071d23289bfe62a58dc84d928a10d1285f1930",
+            "mesh_hash": "6034a5b0b9a79d0cfa47f617f9677a53610b15bc24eedfc90e8b2cda6aa239e6",
+            "annotation_hash": "1ea216387de1299d005c7dbaadae12ff229d30f7c16907d4c2c4174724f167dd",
+            "split": "train"
+          },
+          {
+            "asset_id": "asset-B",
+            "family_id": "family-B",
+            "source_hash": "4703e1224ce24c2a8e053db8c4a697dbf66038cfcd773bba1b037199f5f9e877",
+            "mesh_hash": "30c390b1356d91e9ffc3afef2af67dfc69da5a93701156869a700ccc03b49ce6",
+            "annotation_hash": "3e0c04f22faa0882b847df115bfcc7bbc2bae22e8059037a925c07a94756c13b",
+            "split": "test"
+          }
+        ]
+      },
+      "closure_count": 11
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "b1f2a5fd-1d8c-44dc-b319-37e663b8d164",
+      "recipe_id": "8e6e12d2987ed41b597b27eb469db33b73353fdbdb1cf99719d7f21764215284",
+      "output_id": "d3757b40a6f786951e442ed4bc71e76e05d680c80ec2d98655e1f140507ebed9",
+      "status": "succeeded"
+    },
+    {
+      "run_id": "95d85605-6e21-4275-ac74-b6fb41362e25",
+      "recipe_id": "8e51d15f94bebaaff0009fa46e595ccfad0e2260f0e25a2e5b6ab871b2578a4a",
+      "output_id": "994ed09f9b5cb00c768ae62d6f468d7f6906ddcd35260dbac6bdd0ebe18c5474",
+      "status": "succeeded"
+    },
+    {
+      "run_id": "340fcd59-c347-4d29-b17a-6f1cbb755f41",
+      "recipe_id": "8e51d15f94bebaaff0009fa46e595ccfad0e2260f0e25a2e5b6ab871b2578a4a",
+      "output_id": "994ed09f9b5cb00c768ae62d6f468d7f6906ddcd35260dbac6bdd0ebe18c5474",
+      "status": "succeeded"
+    }
+  ],
+  "fault_injection_checks": {
+    "missing_family_id": {
+      "blocked": true,
+      "reason": "missing_sample_fields",
+      "published_pointer_unchanged": true
+    },
+    "cross_split_family": {
+      "blocked": true,
+      "reason": "family_split_leakage",
+      "published_pointer_unchanged": true
+    },
+    "same_face_count_wrong_binding": {
+      "blocked": true,
+      "reason": "annotation_mesh_binding_mismatch",
+      "published_pointer_unchanged": true
+    },
+    "missing_dependency": {
+      "blocked": true,
+      "reason": "missing_object",
+      "published_pointer_unchanged": true
+    },
+    "incomplete_recipe_inputs": {
+      "blocked": true,
+      "reason": "recipe_input_or_config_mismatch",
+      "published_pointer_unchanged": true
+    },
+    "ontology_binding_changed": {
+      "blocked": true,
+      "reason": "annotation_ontology_mismatch",
+      "published_pointer_unchanged": true
+    },
+    "corrupt_object_bytes": {
+      "blocked": true,
+      "reason": "hash_mismatch",
+      "published_pointer_unchanged": true
+    }
+  },
+  "repeat_output_identical": true,
+  "distinct_run_ids": true,
+  "rollback": {
+    "current_release": "d3757b40a6f786951e442ed4bc71e76e05d680c80ec2d98655e1f140507ebed9",
+    "old_and_new_objects_retained": true
+  },
+  "lineage": {
+    "edge_count": 40,
+    "affected_by_mesh_a": [
+      "1ea216387de1299d005c7dbaadae12ff229d30f7c16907d4c2c4174724f167dd",
+      "8e51d15f94bebaaff0009fa46e595ccfad0e2260f0e25a2e5b6ab871b2578a4a",
+      "8e6e12d2987ed41b597b27eb469db33b73353fdbdb1cf99719d7f21764215284",
+      "994ed09f9b5cb00c768ae62d6f468d7f6906ddcd35260dbac6bdd0ebe18c5474",
+      "d3757b40a6f786951e442ed4bc71e76e05d680c80ec2d98655e1f140507ebed9"
+    ],
+    "affected_release_count": 2
+  },
+  "limits": [
+    "single writer; no multi-writer CAS/lock or distributed transaction",
+    "temporary object store removed after run; report persists",
+    "policy versioning only; no quality scoring or license audit",
+    "explicit tiny JSON mesh; no DCC parser, semantic correctness, or near-duplicate discovery",
+    "file fsync+atomic rename; no full power-loss durability guarantee",
+    "run UUIDs vary; compare content IDs only under same source/Python environment"
+  ]
+}

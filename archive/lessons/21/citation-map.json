@@ -1,0 +1,84 @@
+{
+  "format": "citation-token-removal/1",
+  "transform": "Remove only GenUI citation tokens; preserve all other characters. R1-R7 references and URLs remain.",
+  "reversible_roundtrip_verified": true,
+  "sources": [
+    {
+      "reference": "R1",
+      "source_ref": "turn360235377view0",
+      "url": "https://www.w3.org/TR/prov-dm/"
+    },
+    {
+      "reference": "R2",
+      "source_ref": "turn429208289view0",
+      "url": "https://docs.lakefs.io/concepts/internals/"
+    },
+    {
+      "reference": "R3",
+      "source_ref": "turn551380555view1",
+      "url": "https://www.rfc-editor.org/rfc/rfc8785"
+    },
+    {
+      "reference": "R4",
+      "source_ref": "turn429208289view1",
+      "url": "https://docs.pytorch.org/docs/2.15/notes/randomness.html"
+    },
+    {
+      "reference": "R5",
+      "source_ref": "turn551380555view4",
+      "url": "https://doc.dvc.org/user-guide/project-structure/dvcyaml-files"
+    },
+    {
+      "reference": "R6",
+      "source_ref": "turn360235377view5",
+      "url": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage"
+    },
+    {
+      "reference": "R7",
+      "source_ref": "turn551380555view0",
+      "url": "https://mlflow.org/docs/latest/api_reference/python_api/mlflow.data.html"
+    }
+  ],
+  "occurrences": [
+    {
+      "readable_character_offset": 2624,
+      "source_character_offset": 2624,
+      "token": "genui{\"citation\":{\"ref\":\"turn429208289view0\"}}"
+    },
+    {
+      "readable_character_offset": 3069,
+      "source_character_offset": 3118,
+      "token": "genui{\"citation\":{\"ref\":\"turn551380555view1\"}}"
+    },
+    {
+      "readable_character_offset": 3876,
+      "source_character_offset": 3974,
+      "token": "genui{\"citation\":{\"ref\":\"turn360235377view0\"}}"
+    },
+    {
+      "readable_character_offset": 4844,
+      "source_character_offset": 4991,
+      "token": "genui{\"citation\":{\"ref\":\"turn429208289view1\"}}"
+    },
+    {
+      "readable_character_offset": 8559,
+      "source_character_offset": 8755,
+      "token": "genui{\"citation\":{\"ref\":\"turn429208289view0\"}}"
+    },
+    {
+      "readable_character_offset": 9796,
+      "source_character_offset": 10041,
+      "token": "genui{\"citation\":{\"ref\":\"turn551380555view4\"}}"
+    },
+    {
+      "readable_character_offset": 13830,
+      "source_character_offset": 14124,
+      "token": "genui{\"citation\":{\"ref\":\"turn360235377view5\"}}"
+    },
+    {
+      "readable_character_offset": 13908,
+      "source_character_offset": 14251,
+      "token": "genui{\"citation\":{\"ref\":\"turn551380555view0\"}}"
+    }
+  ]
+}

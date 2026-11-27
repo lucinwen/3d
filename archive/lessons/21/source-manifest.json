@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "lesson": 21,
+  "title": "Data Versioning & Data Lineage",
+  "authored_date": "2026-11-28",
+  "timezone": "Asia/Shanghai",
+  "source_status": "authored-current-turn",
+  "source_scope": "Complete prepared final teaching response plus separately retained commentary and exact current user request",
+  "independent_delivered_chat_export_verified": false,
+  "historical_verbatim_recovery_claimed": false,
+  "source_path": "archive/lessons/21/transcript.md",
+  "readable_path": "lessons/lesson-21-data-versioning-and-lineage.md",
+  "citation_transform": "citation-map.json; reversible citation-token removal only",
+  "counts": {
+    "teaching_chain_sections": 9,
+    "interview_questions_with_answers_and_followups": 8,
+    "objective_quiz_questions_with_answers": 10,
+    "open_questions_with_answers_and_rubrics": 3,
+    "mermaid_diagrams": 1,
+    "external_or_generated_image_binaries_used": 0,
+    "runnable_lab_scripts": 1,
+    "actual_full_lab_reports": 1,
+    "retained_progress_messages": 5
+  },
+  "verification": "See execution-verification.json for actual synthetic run evidence; delivery-verification.json for remote content readback after commit.",
+  "known_limits": [
+    "prepared source is not an independently exported chat transcript",
+    "historical lesson 13 and 17 teaching files remain missing",
+    "historical original transcript/image recovery incomplete",
+    "Lesson 20 execution/transcript provenance not reverified in this task",
+    "local single-writer synthetic lab does not prove GPU training reproducibility"
+  ],
+  "files": [
+    {
+      "path": "lessons/lesson-21-data-versioning-and-lineage.md",
+      "bytes": 46595,
+      "sha256": "3edab637a9daf0a3e26a7db8c14a9ae4a0c4c3a7544278d28428d30bf4fd8073"
+    },
+    {
+      "path": "archive/lessons/21/README.md",
+      "bytes": 2414,
+      "sha256": "059616a3d5c32174c81c60f78a409ef307e79f64129604900bdc00c4f047bc89"
+    },
+    {
+      "path": "archive/lessons/21/asset-manifest.csv",
+      "bytes": 682,
+      "sha256": "b756a6d751ceef09768e2cd2b00c7cd7505dbcca1798ca81b0cd33ab5381d56d"
+    },
+    {
+      "path": "archive/lessons/21/assets/version-lineage-flow.mmd",
+      "bytes": 412,
+      "sha256": "68fc2c7aa39acfc09afbb0f7833eb940fe61cb4e8aacc0e77453cf34b0f402b6"
+    },
+    {
+      "path": "archive/lessons/21/citation-map.json",
+      "bytes": 2705,
+      "sha256": "465aa6b38616a2a6d75c356bbf9cbea5e9b49eecb91ba41909e3fe281a4912e5"
+    },
+    {
+      "path": "archive/lessons/21/execution-verification.json",
+      "bytes": 716,
+      "sha256": "f55a4a2e91fc672b0358d923392e9fc9a040f00425e7f26538b49e84ef5beeb5"
+    },
+    {
+      "path": "archive/lessons/21/progress-messages.md",
+      "bytes": 2476,
+      "sha256": "ff0836a699666106d5e2ad820767ef7bbeeca800587151fb55bba6f94c5d8dce"
+    },
+    {
+      "path": "archive/lessons/21/transcript.md",
+      "bytes": 47035,
+      "sha256": "07890e786a1cc3eb1fbb00ab0edb309cb19c92e4bfd280d6a08026bdb3e1a488"
+    },
+    {
+      "path": "archive/lessons/21/user-request.md",
+      "bytes": 390,
+      "sha256": "757f4ca4a04ca9786b99d95b0e44e3a4026586f5da8abccbae7548d865ad86d8"
+    },
+    {
+      "path": "examples/lesson21/README.md",
+      "bytes": 7471,
+      "sha256": "f3df46029761e37feed8a510d93d52756924b95100658d271a380e798336d638"
+    },
+    {
+      "path": "examples/lesson21/example-report.json",
+      "bytes": 6607,
+      "sha256": "eccdcb8f08e332ed3b4a2021babc60697881b02aba15e3f910986cb0d5734c17"
+    },
+    {
+      "path": "examples/lesson21/versioning_lineage_lab.py",
+      "bytes": 15787,
+      "sha256": "ed9dd5e2e380d723b34d62dc26581978971423fe8d4f733d9d0cd3a8a46378c4"
+    }
+  ]
+}
