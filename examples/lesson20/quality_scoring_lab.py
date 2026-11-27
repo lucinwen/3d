@@ -14,7 +14,7 @@ PROFILES = {
     "character_animation": {
         "weights": {"geometry": .15, "topology": .20, "appearance": .05, "annotation": .20, "provenance": .15, "task_fit": .25},
         "required": ["geometry", "topology", "annotation", "provenance", "task_fit"],
-        "min_coverage": .90, "accept": 85.0, "review": 70.0,
+        "min_coverage": .90, "accept": 85.0, "review": 70.0, "critical_min": {"topology": 70.0},
     },
 }
 ASSETS = [
@@ -47,6 +47,7 @@ def evaluate(asset, profile_name):
     coverage = observed_weight / total_weight
     failed_gates = [name for name, passed in asset["gates"].items() if not passed]
     missing_required = [name for name in profile["required"] if scores.get(name) is None]
+    critical_failed = [name for name, floor in profile.get("critical_min", {}).items() if scores.get(name) is not None and scores[name] < floor]
     reasons = []
     if failed_gates:
         decision = "quarantine"
@@ -54,6 +55,9 @@ def evaluate(asset, profile_name):
     elif missing_required:
         decision = "review"
         reasons.extend("required_dimension_missing:" + name for name in missing_required)
+    elif critical_failed:
+        decision = "review"
+        reasons.extend("critical_dimension_below_floor:" + name for name in critical_failed)
     elif coverage < profile["min_coverage"]:
         decision = "review"
         reasons.append("weight_coverage_below_minimum")
@@ -72,7 +76,7 @@ def evaluate(asset, profile_name):
         "weight_coverage": round(coverage, 3),
         "dimension_contributions": contributions,
         "missing_dimensions": missing, "failed_hard_gates": failed_gates,
-        "missing_required_dimensions": missing_required,
+        "missing_required_dimensions": missing_required, "critical_dimensions_below_floor": critical_failed,
         "decision": decision, "decision_reasons": reasons,
         "calibrated_probability": None,
         "calibration_note": "No independent reference labels; raw score is not a probability."
