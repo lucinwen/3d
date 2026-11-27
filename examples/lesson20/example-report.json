@@ -1,5 +1,5 @@
 {
-  "experiment": "synthetic task-aware scoring demonstration; generated from the published example inputs; not production evidence",
+  "experiment": "synthetic task-aware scoring example report; report updated to include the task-critical topology floor; not production evidence",
   "policy_version": "lesson20-demo-policy-1.0",
   "results": [
     {
@@ -10,7 +10,8 @@
       "failed_hard_gates": [],
       "missing_required_dimensions": [],
       "decision": "accept",
-      "calibrated_probability": null
+      "calibrated_probability": null,
+      "critical_dimensions_below_floor": []
     },
     {
       "asset_id": "A-clean-prop",
@@ -20,7 +21,8 @@
       "failed_hard_gates": [],
       "missing_required_dimensions": [],
       "decision": "accept",
-      "calibrated_probability": null
+      "calibrated_probability": null,
+      "critical_dimensions_below_floor": []
     },
     {
       "asset_id": "B-license-unknown",
@@ -32,7 +34,8 @@
       ],
       "missing_required_dimensions": [],
       "decision": "quarantine",
-      "calibrated_probability": null
+      "calibrated_probability": null,
+      "critical_dimensions_below_floor": []
     },
     {
       "asset_id": "B-license-unknown",
@@ -44,7 +47,8 @@
       ],
       "missing_required_dimensions": [],
       "decision": "quarantine",
-      "calibrated_probability": null
+      "calibrated_probability": null,
+      "critical_dimensions_below_floor": []
     },
     {
       "asset_id": "C-static-only",
@@ -54,7 +58,8 @@
       "failed_hard_gates": [],
       "missing_required_dimensions": [],
       "decision": "accept",
-      "calibrated_probability": null
+      "calibrated_probability": null,
+      "critical_dimensions_below_floor": []
     },
     {
       "asset_id": "C-static-only",
@@ -63,8 +68,14 @@
       "weight_coverage": 1,
       "failed_hard_gates": [],
       "missing_required_dimensions": [],
-      "decision": "accept",
-      "calibrated_probability": null
+      "decision": "review",
+      "calibrated_probability": null,
+      "critical_dimensions_below_floor": [
+        "topology"
+      ],
+      "decision_reasons": [
+        "critical_dimension_below_floor:topology"
+      ]
     },
     {
       "asset_id": "D-missing-annotation",
@@ -76,7 +87,8 @@
         "annotation"
       ],
       "decision": "review",
-      "calibrated_probability": null
+      "calibrated_probability": null,
+      "critical_dimensions_below_floor": []
     },
     {
       "asset_id": "D-missing-annotation",
@@ -88,7 +100,8 @@
         "annotation"
       ],
       "decision": "review",
-      "calibrated_probability": null
+      "calibrated_probability": null,
+      "critical_dimensions_below_floor": []
     },
     {
       "asset_id": "E-balanced-character",
@@ -98,7 +111,8 @@
       "failed_hard_gates": [],
       "missing_required_dimensions": [],
       "decision": "accept",
-      "calibrated_probability": null
+      "calibrated_probability": null,
+      "critical_dimensions_below_floor": []
     },
     {
       "asset_id": "E-balanced-character",
@@ -108,14 +122,16 @@
       "failed_hard_gates": [],
       "missing_required_dimensions": [],
       "decision": "accept",
-      "calibrated_probability": null
+      "calibrated_probability": null,
+      "critical_dimensions_below_floor": []
     }
   ],
   "checks": {
     "failed_license_gate_never_accepted": true,
     "same_asset_task_scores_can_differ": true,
     "missing_required_annotation_routes_review": true,
-    "no_calibrated_probability_fabricated": true
+    "no_calibrated_probability_fabricated": true,
+    "critical_topology_floor_routes_animation_sample_to_review": true
   },
   "limitations": [
     "The report is derived from synthetic example inputs; it is not a production benchmark.",
