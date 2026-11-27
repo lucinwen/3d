@@ -24,7 +24,7 @@
     "mermaid_diagrams": 1,
     "external_or_generated_image_binaries": 0,
     "primary_references": 9,
-    "progress_messages": 6,
+    "progress_messages": 7,
     "code_fences": 7,
     "display_equation_blocks": 21,
     "runnable_lab_scripts": 1,
@@ -35,7 +35,9 @@
     "remote_publication_evidence": "archive/lessons/22/delivery-verification.json",
     "technical_review": "Independent agent reviewed all nine sections, formulas, examples, code/report consistency, quiz answers and evidence boundaries; concrete wording corrections incorporated.",
     "learner_assessment": "not verified",
-    "historical_missing_sources": "Lessons 13 and 17 remain missing; historical verbatim messages and image recovery remains incomplete."
+    "historical_missing_sources": "Lessons 13 and 17 remain missing; historical verbatim messages and image recovery remains incomplete.",
+    "content_commit": "63bc08bf383ee3f7b29a40fe5acfeb259198fcf9",
+    "remote_content_readback": "18/18 exact matches at content commit; 56 unrelated original blobs preserved"
   },
   "files": [
     {
@@ -100,8 +102,8 @@
     },
     {
       "path": "archive/lessons/22/progress-messages.md",
-      "sha256": "ee380f75fe1c45282609453ea43eaef6d154b37d690cacf75404bec8336449cf",
-      "utf8_bytes": 3044
+      "sha256": "eb4db3f1677556604693a6cbca1bfe59d1bbc85ff623bb34376815f8fe81afa2",
+      "utf8_bytes": 3408
     },
     {
       "path": "archive/lessons/22/assets/dataset-construction-flow.mmd",
