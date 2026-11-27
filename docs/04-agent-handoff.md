@@ -17,10 +17,10 @@ This file lets a new AI agent continue work without depending on the original ch
 
 - Active repository: lucinwen/3d
 - Active curriculum: six courses, 51 units.
-- Active unit: Course 2, Lesson 14 — Diffusion.
-- Prior lessons: Lessons 1–12 archived; Lesson 13 (SDF) taught in chat but repository file pending; Lesson 14 (Diffusion) archived. See archive-completeness caveat in docs/03-project-state.md.
+- Active unit: Course 2, Lesson 15 — Shape Generation.
+- Prior lessons: Lessons 1–12 have structured teaching archives; Lesson 13 (SDF) taught in chat but exact source file pending; Lesson 14 (Diffusion) has a structured teaching archive. Exact transcript and binary image recovery is tracked in archive/README.md. See archive-completeness caveat in docs/03-project-state.md.
 - Teaching format: nine-part unit structure.
-- Next planned unit after Lesson 14 assessment: Course 2, Lesson 15 — Shape Generation.
+- Next planned unit after Lesson 15 assessment: Course 2, Lesson 16 — Retopology.
 - Learner prefers one unit at a time and deep explanations, not compressed glossaries.
 
 ## How to continue a lesson
