@@ -46,7 +46,7 @@
 | 17 | 3D Data Acquisition & Dataset Construction | 采集来源、扫描/摄影测量/程序生成/人工制作、授权和来源追踪、数据集构建概览 | 已请求并在历史聊天授课；教学文件待恢复 |
 | 18 | Data Cleaning & Deduplication | 数据清洗、异常检测、格式/坐标/尺度标准化、几何修复、文件/几何近重复、非破坏处理 | 已授课；结构化教学文件存在 |
 | 19 | Semantic Annotation & Part Labeling | 语义/实例/部件、点级/面级标签、层级本体、自动标注与人工审核 | 当前讲次；学习者明确请求 |
-| 20 | Data Quality Scoring | 质量维度、分层评分、筛选门禁、自动规则、专家抽检和拒收原因 | planned |
+| 20 | Data Quality Scoring | 质量维度、任务权重、硬门禁、软评分、概率校准、筛选和长尾保护 | 已授课；学习者验收待完成 |
 | 21 | Data Versioning & Data Lineage | 数据集版本、样本 ID、父子派生、工具参数、标注版本和复现 | planned |
 | 22 | Training Dataset Construction | 分层采样、训练/验证/测试划分、身份隔离、近重复泄漏防范 | planned |
 | 23 | Hard Sample Mining | 失败聚类、长尾、边界样本、主动学习和反馈闭环 | planned |

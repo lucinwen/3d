@@ -1,6 +1,4 @@
-# 课程教学归档索引（第 1–19 讲）
-
-> 教学文档、历史逐字转录和原始图片是不同的归档对象。请阅读 [历史原文与图片归档规范](../archive/README.md)。不要把结构化教学稿冒充逐字历史原文。
+# 课程教学归档索引（第 1–20 讲）
 
 | 讲次 | 课程 | 主题 | 文件/状态 |
 |---|---|---|---|
@@ -16,29 +14,17 @@
 | 10 | 课程 2 | Multi-view Reconstruction | [lesson-10](lesson-10-multiview-reconstruction.md) |
 | 11 | 课程 2 | NeRF | [lesson-11](lesson-11-nerf.md) |
 | 12 | 课程 2 | 3D Gaussian Splatting | [lesson-12](lesson-12-3d-gaussian-splatting.md) |
-| 13 | 课程 2 | SDF | 对应教学文件缺失；原始内容待恢复 |
+| 13 | 课程 2 | SDF | 教学文件缺失；原始内容待恢复 |
 | 14 | 课程 2 | Diffusion | [lesson-14](lesson-14-diffusion.md) |
 | 15 | 课程 2 | Shape Generation | [lesson-15](lesson-15-shape-generation.md) |
 | 16 | 课程 2 | Retopology | [lesson-16](lesson-16-retopology.md) |
-| 17 | 课程 3 | 3D Data Acquisition & Dataset Construction | 对应教学文件缺失；已移除未经文件验证的旧链接 |
+| 17 | 课程 3 | 3D Data Acquisition & Dataset Construction | 教学文件缺失；原始内容待恢复 |
 | 18 | 课程 3 | Data Cleaning & Deduplication | [lesson-18](lesson-18-data-cleaning-deduplication.md) |
-| 19 | 课程 3 | Semantic Annotation & Part Labeling | [lesson-19](lesson-19-semantic-annotation-part-labeling.md) · [工程实验](../examples/lesson19/README.md) |
+| 19 | 课程 3 | Semantic Annotation & Part Labeling | [lesson-19](lesson-19-semantic-annotation-part-labeling.md) |
+| 20 | 课程 3 | Data Quality Scoring | [lesson-20](lesson-20-data-quality-scoring.md) · [工程实验](../examples/lesson20/README.md) |
 
-## 每讲固定教学结构
+每讲固定结构：概念 → 原理 → 数据结构 → 算法 → 工程实现 → 评价指标 → 实际案例 → 面试追问 → 小测。
 
-概念 → 原理 → 数据结构 → 算法 → 工程实现 → 评价指标 → 实际案例 → 面试追问 → 小测。
+第 13、17 讲教学文件缺失；第 19、20 讲为新编完整教学源，不等于历史聊天恢复。历史原文与图片必须分别核验。所有讲次均需以学习者练习和测验决定是否 mastered。
 
-## 完整性说明
-
-- 第 1–7 讲：结构化重建稿，不是已核验的逐字历史转录。
-- 第 8–10 讲：整理版教学归档。
-- 第 11–12、14–16、18 讲：结构化教学归档，未证明等同于历史聊天逐字原文。
-- 第 13、17 讲：历史聊天曾授课，但当前仓库中对应教学文件缺失；需要从原始消息或导出文件恢复。
-- 第 19 讲：本次新编的完整教学源，另保存当前来源副本与来源/附件清单；这不等于历史聊天恢复。参见 [本讲来源清单](../archive/lessons/19/source-manifest.json)。
-- 聊天图片查询、图片引用和原始图片二进制文件必须分别记录。没有取得原始文件时，不得声称图片已原样归档。
-- 所有讲次均需以学习者完成练习和测验的证据决定是否 mastered。
-
-
-## 继续学习
-
-当前单元是第 19 讲；下一规划单元为第 20 讲 Data Quality Scoring。学习者明确要求继续时推进教学，未提交的测验保持待验收。课程 3 的原版编号与当前课序对照见[课程规划](../docs/00-curriculum-roadmap.md)。
+当前单元为第 20 讲；下一讲为第 21 讲 Data Versioning & Data Lineage。未提交的测验保持待验收。

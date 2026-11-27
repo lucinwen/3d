@@ -1,0 +1,125 @@
+{
+  "experiment": "synthetic task-aware scoring demonstration; generated from the published example inputs; not production evidence",
+  "policy_version": "lesson20-demo-policy-1.0",
+  "results": [
+    {
+      "asset_id": "A-clean-prop",
+      "task_profile": "static_classification",
+      "raw_score": 92.1,
+      "weight_coverage": 1,
+      "failed_hard_gates": [],
+      "missing_required_dimensions": [],
+      "decision": "accept",
+      "calibrated_probability": null
+    },
+    {
+      "asset_id": "A-clean-prop",
+      "task_profile": "character_animation",
+      "raw_score": 91.5,
+      "weight_coverage": 1,
+      "failed_hard_gates": [],
+      "missing_required_dimensions": [],
+      "decision": "accept",
+      "calibrated_probability": null
+    },
+    {
+      "asset_id": "B-license-unknown",
+      "task_profile": "static_classification",
+      "raw_score": 98.35,
+      "weight_coverage": 1,
+      "failed_hard_gates": [
+        "license_approved"
+      ],
+      "missing_required_dimensions": [],
+      "decision": "quarantine",
+      "calibrated_probability": null
+    },
+    {
+      "asset_id": "B-license-unknown",
+      "task_profile": "character_animation",
+      "raw_score": 98.15,
+      "weight_coverage": 1,
+      "failed_hard_gates": [
+        "license_approved"
+      ],
+      "missing_required_dimensions": [],
+      "decision": "quarantine",
+      "calibrated_probability": null
+    },
+    {
+      "asset_id": "C-static-only",
+      "task_profile": "static_classification",
+      "raw_score": 89.55,
+      "weight_coverage": 1,
+      "failed_hard_gates": [],
+      "missing_required_dimensions": [],
+      "decision": "accept",
+      "calibrated_probability": null
+    },
+    {
+      "asset_id": "C-static-only",
+      "task_profile": "character_animation",
+      "raw_score": 85.65,
+      "weight_coverage": 1,
+      "failed_hard_gates": [],
+      "missing_required_dimensions": [],
+      "decision": "accept",
+      "calibrated_probability": null
+    },
+    {
+      "asset_id": "D-missing-annotation",
+      "task_profile": "static_classification",
+      "raw_score": 90.615,
+      "weight_coverage": 0.65,
+      "failed_hard_gates": [],
+      "missing_required_dimensions": [
+        "annotation"
+      ],
+      "decision": "review",
+      "calibrated_probability": null
+    },
+    {
+      "asset_id": "D-missing-annotation",
+      "task_profile": "character_animation",
+      "raw_score": 89.467,
+      "weight_coverage": 0.75,
+      "failed_hard_gates": [],
+      "missing_required_dimensions": [
+        "annotation"
+      ],
+      "decision": "review",
+      "calibrated_probability": null
+    },
+    {
+      "asset_id": "E-balanced-character",
+      "task_profile": "static_classification",
+      "raw_score": 91.85,
+      "weight_coverage": 1,
+      "failed_hard_gates": [],
+      "missing_required_dimensions": [],
+      "decision": "accept",
+      "calibrated_probability": null
+    },
+    {
+      "asset_id": "E-balanced-character",
+      "task_profile": "character_animation",
+      "raw_score": 92.95,
+      "weight_coverage": 1,
+      "failed_hard_gates": [],
+      "missing_required_dimensions": [],
+      "decision": "accept",
+      "calibrated_probability": null
+    }
+  ],
+  "checks": {
+    "failed_license_gate_never_accepted": true,
+    "same_asset_task_scores_can_differ": true,
+    "missing_required_annotation_routes_review": true,
+    "no_calibrated_probability_fabricated": true
+  },
+  "limitations": [
+    "The report is derived from synthetic example inputs; it is not a production benchmark.",
+    "The script does not perform real asset inspection or probability calibration.",
+    "Decision thresholds are teaching configuration only."
+  ]
+}
