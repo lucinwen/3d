@@ -1,0 +1,131 @@
+{
+  "schema_version": "current-lesson-source-manifest/1",
+  "lesson": 22,
+  "topic": "Training Dataset Construction",
+  "authored_date": "2026-11-28",
+  "timezone": "Asia/Shanghai",
+  "source_status": "authored-current-turn",
+  "conversation_reference": "Current Lesson 22 request; platform message identifier not available.",
+  "exactness_scope": "Complete prepared final-response source preserved. Not an independently exported delivered chat transcript, and not a reconstruction of historical missing lessons.",
+  "independent_chat_ui_export_verified": false,
+  "base_commit": "520f6f3ba37130e2e7a0dc5ca90e8ac9886bcb2c",
+  "base_tree": "97e603d5c7022069c493f604fd3bdcb79b041523",
+  "source_character_count": 25426,
+  "source_utf8_byte_count": 52880,
+  "readable_transform_round_trip_verified": true,
+  "core_code_excerpt_matches_runnable_file": true,
+  "coverage": {
+    "teaching_sections": 9,
+    "interview_questions_with_answers": 8,
+    "interview_followups_with_answers": 8,
+    "objective_quiz_questions_with_explanations": 10,
+    "analysis_questions_with_answers_and_scoring": 3,
+    "practice_tasks": 4,
+    "mermaid_diagrams": 1,
+    "external_or_generated_image_binaries": 0,
+    "primary_references": 9,
+    "progress_messages": 6,
+    "code_fences": 7,
+    "display_equation_blocks": 21,
+    "runnable_lab_scripts": 1,
+    "complete_execution_reports": 1
+  },
+  "verification": {
+    "execution_evidence": "archive/lessons/22/execution-verification.json",
+    "remote_publication_evidence": "archive/lessons/22/delivery-verification.json",
+    "technical_review": "Independent agent reviewed all nine sections, formulas, examples, code/report consistency, quiz answers and evidence boundaries; concrete wording corrections incorporated.",
+    "learner_assessment": "not verified",
+    "historical_missing_sources": "Lessons 13 and 17 remain missing; historical verbatim messages and image recovery remains incomplete."
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "6cdb37c5313a529f207b2500cb7b81caa399ad08730a8c5a8491a42e9d60d073",
+      "utf8_bytes": 2699
+    },
+    {
+      "path": "docs/00-curriculum-roadmap.md",
+      "sha256": "ce3efecf3a3bb7a4f188b11f3cabb5f74fa7c43b3dbba489acea9de0170e38ec",
+      "utf8_bytes": 12034
+    },
+    {
+      "path": "docs/03-project-state.md",
+      "sha256": "1b0d797f0176e73226d3ac728b427ed2a7f9bc49f22089a510bc536173bec008",
+      "utf8_bytes": 7270
+    },
+    {
+      "path": "docs/04-agent-handoff.md",
+      "sha256": "d2f54d4fa18eee8838e7306e9a9c056ef51a0009caeb223a4c66c42c94c674af",
+      "utf8_bytes": 8447
+    },
+    {
+      "path": "lessons/README.md",
+      "sha256": "02dcd0aa9239b7a3973823ed514604bd0ef4d5e404fee9f8fa6fd7d25c9203e6",
+      "utf8_bytes": 3421
+    },
+    {
+      "path": "lessons/lesson-22-training-dataset-construction.md",
+      "sha256": "3c1bc8cc50d92a527472c83a56effadcfc28d2e06955b45e259ecc783b85348f",
+      "utf8_bytes": 52385
+    },
+    {
+      "path": "examples/lesson22/dataset_construction_lab.py",
+      "sha256": "b5a30bc3689d95841d46207aa4900b475aa7eeadcada0e9ee2fd42f8ac4342db",
+      "utf8_bytes": 14925
+    },
+    {
+      "path": "examples/lesson22/README.md",
+      "sha256": "b4f63c41e6acdcb1d46a5a4c1710283e911b2fed24d60ea4d972c67cbc7efcf4",
+      "utf8_bytes": 9021
+    },
+    {
+      "path": "examples/lesson22/example-report.json",
+      "sha256": "d42e2878e12f860b0b69d2b1b0450cf9103d679127a5cd80373a778cf7f10577",
+      "utf8_bytes": 31569
+    },
+    {
+      "path": "archive/lessons/22/README.md",
+      "sha256": "557aed1f31354b8ff8cbe9f841149dcbacb26d0b108f18c16e05b652b07824b4",
+      "utf8_bytes": 2702
+    },
+    {
+      "path": "archive/lessons/22/transcript.md",
+      "sha256": "cc6af72aef17d9d56bdeeb86358a4e5b9b4353f06e8b3d8e9a3342b6776ab90c",
+      "utf8_bytes": 52880
+    },
+    {
+      "path": "archive/lessons/22/user-request.md",
+      "sha256": "673046eddf4795baac1ef9235dacd1888225def6cdcacd66899128a4e8a47f11",
+      "utf8_bytes": 140
+    },
+    {
+      "path": "archive/lessons/22/progress-messages.md",
+      "sha256": "ee380f75fe1c45282609453ea43eaef6d154b37d690cacf75404bec8336449cf",
+      "utf8_bytes": 3044
+    },
+    {
+      "path": "archive/lessons/22/assets/dataset-construction-flow.mmd",
+      "sha256": "49d47ff40cc0198b4f02e1a76847fced03bd9e804f9d99b64eabb04754703963",
+      "utf8_bytes": 421
+    },
+    {
+      "path": "archive/lessons/22/citation-map.json",
+      "sha256": "0648eea17cfe8df97e25b91438b0670eadd7fdb81835236f99ad45fd5d94e025",
+      "utf8_bytes": 4654
+    },
+    {
+      "path": "archive/lessons/22/asset-manifest.csv",
+      "sha256": "72b48b82515ceb8716f7f0bcb308e7c0efd6d33fba6d26877e39b61fd7d49f0e",
+      "utf8_bytes": 310
+    },
+    {
+      "path": "archive/lessons/22/execution-verification.json",
+      "sha256": "c22049ebe062cec0883df956fe207a8d09443c8d0c71ecc9d5c5429e210e3063",
+      "utf8_bytes": 2419
+    }
+  ],
+  "excluded_from_self_hashing": [
+    "archive/lessons/22/source-manifest.json",
+    "archive/lessons/22/delivery-verification.json"
+  ]
+}

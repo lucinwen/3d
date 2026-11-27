@@ -1,0 +1,2 @@
+order,path,kind,source_status,source_location,sha256,notes
+1,archive/lessons/22/assets/dataset-construction-flow.mmd,mermaid-source,authored-current-turn,transcript.md section 4.5,49d47ff40cc0198b4f02e1a76847fced03bd9e804f9d99b64eabb04754703963,Exact code block source; no external/generated image binary used

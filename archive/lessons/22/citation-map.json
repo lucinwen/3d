@@ -1,0 +1,112 @@
+{
+  "schema_version": "citation-transform/1",
+  "source_path": "archive/lessons/22/transcript.md",
+  "readable_path": "lessons/lesson-22-training-dataset-construction.md",
+  "transformation": "Delete only exact GenUI citation tokens; keep all wording, spacing, references, examples and code.",
+  "offset_unit": "Unicode code points, zero-based",
+  "inverse": "Insert exact_token at readable_offset_codepoints in reverse order.",
+  "round_trip_verified": true,
+  "source_sha256": "cc6af72aef17d9d56bdeeb86358a4e5b9b4353f06e8b3d8e9a3342b6776ab90c",
+  "readable_sha256": "3c1bc8cc50d92a527472c83a56effadcfc28d2e06955b45e259ecc783b85348f",
+  "entries": [
+    {
+      "source_offset_codepoints": 1123,
+      "readable_offset_codepoints": 1123,
+      "exact_token": "genui{\"citation\":{\"ref\":\"turn916143776view0\"}}",
+      "label": "R1",
+      "ref": "turn916143776view0",
+      "url": "https://arxiv.org/html/2003.08934v2",
+      "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "source_type": "primary",
+      "access_date": "2026-11-28 Asia/Shanghai"
+    },
+    {
+      "source_offset_codepoints": 1663,
+      "readable_offset_codepoints": 1614,
+      "exact_token": "genui{\"citation\":{\"ref\":\"turn916143776view1\"}}",
+      "label": "R2",
+      "ref": "turn916143776view1",
+      "url": "https://scikit-learn.org/stable/modules/calibration.html",
+      "title": "Probability calibration",
+      "source_type": "primary",
+      "access_date": "2026-11-28 Asia/Shanghai"
+    },
+    {
+      "source_offset_codepoints": 1844,
+      "readable_offset_codepoints": 1746,
+      "exact_token": "genui{\"citation\":{\"ref\":\"turn191993739view2\"}}",
+      "label": "R3",
+      "ref": "turn191993739view2",
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "title": "Cross-validation",
+      "source_type": "primary",
+      "access_date": "2026-11-28 Asia/Shanghai"
+    },
+    {
+      "source_offset_codepoints": 3929,
+      "readable_offset_codepoints": 3782,
+      "exact_token": "genui{\"citation\":{\"ref\":\"turn306664198view5\"}}",
+      "label": "R4",
+      "ref": "turn306664198view5",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GroupShuffleSplit.html",
+      "title": "GroupShuffleSplit",
+      "source_type": "primary",
+      "access_date": "2026-11-28 Asia/Shanghai"
+    },
+    {
+      "source_offset_codepoints": 4446,
+      "readable_offset_codepoints": 4250,
+      "exact_token": "genui{\"citation\":{\"ref\":\"turn191993739view0\"}}",
+      "label": "R5",
+      "ref": "turn191993739view0",
+      "url": "https://arxiv.org/html/2207.07048v1",
+      "title": "Leakage and the Reproducibility Crisis in ML-based Science",
+      "source_type": "primary",
+      "access_date": "2026-11-28 Asia/Shanghai"
+    },
+    {
+      "source_offset_codepoints": 5210,
+      "readable_offset_codepoints": 4965,
+      "exact_token": "genui{\"citation\":{\"ref\":\"turn306664198view2\"}}",
+      "label": "R6",
+      "ref": "turn306664198view2",
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "title": "Common pitfalls",
+      "source_type": "primary",
+      "access_date": "2026-11-28 Asia/Shanghai"
+    },
+    {
+      "source_offset_codepoints": 7179,
+      "readable_offset_codepoints": 6885,
+      "exact_token": "genui{\"citation\":{\"ref\":\"turn916143776view3\"}}",
+      "label": "R7",
+      "ref": "turn916143776view3",
+      "url": "https://arxiv.org/html/1803.09010v8",
+      "title": "Datasheets for Datasets",
+      "source_type": "primary",
+      "access_date": "2026-11-28 Asia/Shanghai"
+    },
+    {
+      "source_offset_codepoints": 9448,
+      "readable_offset_codepoints": 9105,
+      "exact_token": "genui{\"citation\":{\"ref\":\"turn306664198view4\"}}",
+      "label": "R8",
+      "ref": "turn306664198view4",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedGroupKFold.html",
+      "title": "StratifiedGroupKFold",
+      "source_type": "primary",
+      "access_date": "2026-11-28 Asia/Shanghai"
+    },
+    {
+      "source_offset_codepoints": 10082,
+      "readable_offset_codepoints": 9690,
+      "exact_token": "genui{\"citation\":{\"ref\":\"turn306664198view6\"}}",
+      "label": "R9",
+      "ref": "turn306664198view6",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+      "title": "TimeSeriesSplit",
+      "source_type": "primary",
+      "access_date": "2026-11-28 Asia/Shanghai"
+    }
+  ]
+}

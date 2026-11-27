@@ -1,0 +1,67 @@
+{
+  "status": "actual-execution-verified",
+  "executed_at_utc": "2026-11-27T17:38:03.826512+00:00",
+  "executed_by": "root agent independent rerun after source review",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "examples/lesson22/dataset_construction_lab.py",
+    "--output",
+    "examples/lesson22/example-report.json"
+  ],
+  "working_directory": "/workspace/scratch/436aab421775/3d-lesson22",
+  "exit_code": 0,
+  "python_version": "3.12.14",
+  "stderr": "",
+  "script_path": "examples/lesson22/dataset_construction_lab.py",
+  "script_sha256": "b5a30bc3689d95841d46207aa4900b475aa7eeadcada0e9ee2fd42f8ac4342db",
+  "report_path": "examples/lesson22/example-report.json",
+  "report_sha256": "d42e2878e12f860b0b69d2b1b0450cf9103d679127a5cd80373a778cf7f10577",
+  "stdout_sha256": "d42e2878e12f860b0b69d2b1b0450cf9103d679127a5cd80373a778cf7f10577",
+  "stdout_equals_saved_report": true,
+  "report_equals_preexisting_independently_executed_report": true,
+  "split_manifest_sha256": "802418da373c118e744fd1f84c1436f3b5b0b41f7557744c4b0f26386140f49c",
+  "fault_checks": {
+    "missing_family": {
+      "blocked": true,
+      "reason": "missing_row_fields"
+    },
+    "duplicate_sample_id": {
+      "blocked": true,
+      "reason": "duplicate_sample_id"
+    },
+    "unassigned_sample": {
+      "blocked": true,
+      "reason": "unassigned_sample"
+    },
+    "cross_assigned_sample": {
+      "blocked": true,
+      "reason": "duplicate_or_cross_assigned_sample"
+    },
+    "family_leakage": {
+      "blocked": true,
+      "reason": "family_split_leakage"
+    },
+    "fit_on_all_rows": {
+      "blocked": true,
+      "reason": "preprocessor_fit_scope_must_equal_train"
+    },
+    "augment_test_parent": {
+      "blocked": true,
+      "reason": "augmentation_parent_not_train"
+    },
+    "rare_class_only_two_groups": {
+      "blocked": true,
+      "reason": "infeasible_class_group_support:rare"
+    }
+  },
+  "checks": {
+    "candidate_rows": 720,
+    "candidate_families": 120,
+    "row_random_test_record_family_exposure": 1.0,
+    "grouped_test_record_family_exposure": 0.0,
+    "train_stats_unchanged_under_heldout_shift": true,
+    "frozen_manifest_unchanged_after_faults": true,
+    "reversed_input_same_split": true
+  },
+  "scope": "Synthetic metadata and pipeline invariants only; no real geometry, learned 3D model, domain/time holdout, or learner assessment."
+}
