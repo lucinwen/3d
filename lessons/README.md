@@ -15,7 +15,7 @@
 | 9 | 课程 2 | Image-to-3D | [lesson-09-image-to-3d.md](lesson-09-image-to-3d.md) |
 | 10 | 课程 2 | Multi-view Reconstruction | [lesson-10-multiview-reconstruction.md](lesson-10-multiview-reconstruction.md) |
 | 11 | 课程 2 | NeRF | [lesson-11-nerf.md](lesson-11-nerf.md) |
-| 12 | 课程 2 | 3D Gaussian Splatting | [lesson-12-3d-gaussian-splatting.md](lesson-12-3d-gaussian-splatting.md) |\n| 13 | 课程 2 | SDF | 历史教学稿待恢复归档 |\n| 14 | 课程 2 | Diffusion | [lesson-14-diffusion.md](lesson-14-diffusion.md) |\n| 15 | 课程 2 | Shape Generation | [lesson-15-shape-generation.md](lesson-15-shape-generation.md) |\n| 13 | 课程 2 | SDF | 教学内容已在对话中讲授，仓库文档待归档 |\n| 14 | 课程 2 | Diffusion | [lesson-14-diffusion.md](lesson-14-diffusion.md) |
+| 12 | 课程 2 | 3D Gaussian Splatting | [lesson-12-3d-gaussian-splatting.md](lesson-12-3d-gaussian-splatting.md) |\n| 13 | 课程 2 | SDF | 历史教学稿待恢复归档 |\n| 14 | 课程 2 | Diffusion | [lesson-14-diffusion.md](lesson-14-diffusion.md) |\n| 15 | 课程 2 | Shape Generation | [lesson-15-shape-generation.md](lesson-15-shape-generation.md) |\n| 16 | 课程 2 | Retopology | [lesson-16-retopology.md](lesson-16-retopology.md) |\n| 13 | 课程 2 | SDF | 教学内容已在对话中讲授，仓库文档待归档 |\n| 14 | 课程 2 | Diffusion | [lesson-14-diffusion.md](lesson-14-diffusion.md) |
 
 ## 每讲固定结构
 
