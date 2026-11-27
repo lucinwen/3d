@@ -1,6 +1,6 @@
 # Project State — 3D AI Data Academy
 
-Last updated: 2026-11-26
+Last updated: 2026-11-27
 
 ## Current mission
 
@@ -13,9 +13,9 @@ Build a durable, multi-agent-maintainable learning and engineering repository fo
 - Six-course roadmap: documented.
 - Teaching standard: documented.
 - Practice/capstone plan: documented.
-- Lessons 1–12: structured teaching archives exist; Lesson 13 SDF is taught in chat but its lesson file is pending recovery; Lesson 14 Diffusion and Lesson 15 Shape Generation have structured teaching files.
+- Lessons 1–12: structured teaching archives exist; Lesson 13 SDF was taught in chat but its lesson file is pending recovery; Lessons 14 Diffusion, 15 Shape Generation and 16 Retopology have structured teaching files.
 - Agent onboarding and handoff protocol: being established.
-- Lesson 15 (Shape Generation): current teaching unit.
+- Lesson 16 (Retopology): current teaching unit.
 
 ## Important completeness caveat
 
@@ -26,7 +26,7 @@ Lessons 1–7 were reconstructed as structured summaries from available prior-co
 | Course | Planned units | Repository documentation | Learning mastery |
 |---|---:|---|---|
 | 1. Computer Graphics & 3D Assets | 7 | Lessons 1–7 documented | Not yet individually assessed in this repository |
-| 2. 3D Generation & Reconstruction | 9 | Lessons 8–15 in progress; 8–12, 14–15 documented; 13 taught but awaiting original-source recovery | Not yet individually assessed |
+| 2. 3D Generation & Reconstruction | 9 | Lessons 8–16 in progress; 8–12 and 14–16 documented; 13 taught but awaiting original-source recovery | Not yet individually assessed |
 | 3. 3D Data Production & Quality | 9 | Planned | Not started |
 | 4. Model Evaluation & Benchmark | 8 | Planned | Not started |
 | 5. Game Production & Technical Art | 9 | Planned | Not started |
@@ -38,8 +38,12 @@ Lessons 1–7 were reconstructed as structured summaries from available prior-co
 - Lesson 9: Image-to-3D — documented.
 - Lesson 10: Multi-view Reconstruction — documented.
 - Lesson 11: NeRF — documented; assessment not verified.
-- Lesson 12: 3D Gaussian Splatting — documented; assessment not verified; current active unit.
-- Next: Lesson 13, SDF.
+- Lesson 12: 3D Gaussian Splatting — documented; assessment not verified.
+- Lesson 13: SDF — taught in chat; original lesson file pending recovery.
+- Lesson 14: Diffusion — documented; assessment not verified.
+- Lesson 15: Shape Generation — documented; assessment not verified.
+- Lesson 16: Retopology — documented; assessment not verified; current active unit.
+- Next: Course 3, Lesson 17 — 3D Data Acquisition and Dataset Construction.
 
 ## Known content risks to review
 
@@ -52,9 +56,9 @@ Lessons 1–7 were reconstructed as structured summaries from available prior-co
 
 ## Immediate priorities
 
-1. Complete NeRF lesson with full derivation and practical implementation.
-2. Add a NeRF minimal experiment using a small multi-view dataset and a reproducible configuration.
-3. Complete learner quiz and open-ended interview questions before moving to Lesson 12.
-4. Reconcile lesson 1–10 archives with original source conversations where available.
-5. Add references and versioned engineering examples.
+1. Complete the Retopology quiz and open-ended interview questions before moving to Course 3, Lesson 17.
+2. Recover and archive exact original transcripts for Lessons 1–16; do not substitute summaries.
+3. Recover original image binaries where available; otherwise retain prompts/references and mark binaries missing.
+4. Archive Lesson 13 (SDF) from its original source.
+5. Add reproducible experiments and versioned engineering examples.
 6. Keep this state file and handoff file current.
