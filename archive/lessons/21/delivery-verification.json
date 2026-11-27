@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "lesson": 21,
+  "verification_type": "exact GitHub readback of all content update files",
+  "verified_date": "2026-11-28",
+  "timezone": "Asia/Shanghai",
+  "content_commit": "bce314ccc4a11a5da6211613b94f617e09f3d4a1",
+  "content_commit_url": "https://github.com/lucinwen/3d/commit/bce314ccc4a11a5da6211613b94f617e09f3d4a1",
+  "content_tree": "38723898fd0aa98c9f2b7495fbe6ef089e8135e4",
+  "base_commit": "ad4244ad7e33803ad99b15dedf2a61a7a36f7648",
+  "files_compared": 18,
+  "all_exact_content_equal": true,
+  "unrelated_existing_blobs_unchanged": true,
+  "files": [
+    {
+      "path": "README.md",
+      "exact_content_equal": true,
+      "expected_sha256": "c9ed2a1312222a8db5fbd34336151970865792efa2b492dd193bccb4053dfaee",
+      "bytes": 1975,
+      "remote_git_blob_sha": "af3716911795ece49a492c5c7868c4648da74c4d",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/README.md",
+      "error": null
+    },
+    {
+      "path": "docs/00-curriculum-roadmap.md",
+      "exact_content_equal": true,
+      "expected_sha256": "105fd8ed963c7f3e6e4fa4e748019d2d9b42690f0ea846d18194ca998a8d1e0a",
+      "bytes": 11929,
+      "remote_git_blob_sha": "9217a84cd7dbaa0e001666b2735d866d6a29de05",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/docs/00-curriculum-roadmap.md",
+      "error": null
+    },
+    {
+      "path": "docs/03-project-state.md",
+      "exact_content_equal": true,
+      "expected_sha256": "82f084e37d81e16208f0444f7c72b25c896355ce712368406a020412fd94135c",
+      "bytes": 4441,
+      "remote_git_blob_sha": "b7fc67e433191486b9a9ff9571711b8b0cc0a5c9",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/docs/03-project-state.md",
+      "error": null
+    },
+    {
+      "path": "docs/04-agent-handoff.md",
+      "exact_content_equal": true,
+      "expected_sha256": "72c4cad8b29356d03b41c1522754f8fdcdab75ec0e19df0f6b0777a8fa88d355",
+      "bytes": 5196,
+      "remote_git_blob_sha": "7f62ebec8d4b8b0bc554d9b0128f3a740b9342fa",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/docs/04-agent-handoff.md",
+      "error": null
+    },
+    {
+      "path": "lessons/README.md",
+      "exact_content_equal": true,
+      "expected_sha256": "15c74e6037c353562e4b3aff6c6adc097c4554624c11d92ce605913319334e58",
+      "bytes": 2847,
+      "remote_git_blob_sha": "d811f971b716004bc0391ba411b337a2689c1b4a",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/lessons/README.md",
+      "error": null
+    },
+    {
+      "path": "lessons/lesson-21-data-versioning-and-lineage.md",
+      "exact_content_equal": true,
+      "expected_sha256": "3edab637a9daf0a3e26a7db8c14a9ae4a0c4c3a7544278d28428d30bf4fd8073",
+      "bytes": 46595,
+      "remote_git_blob_sha": "254225638b3ccfbd37da32bc6d83c9bbe9800663",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/lessons/lesson-21-data-versioning-and-lineage.md",
+      "error": null
+    },
+    {
+      "path": "examples/lesson21/README.md",
+      "exact_content_equal": true,
+      "expected_sha256": "f3df46029761e37feed8a510d93d52756924b95100658d271a380e798336d638",
+      "bytes": 7471,
+      "remote_git_blob_sha": "c96a9390d1c3351ff36b0377e68d4f47a4c1ba6f",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/examples/lesson21/README.md",
+      "error": null
+    },
+    {
+      "path": "examples/lesson21/example-report.json",
+      "exact_content_equal": true,
+      "expected_sha256": "eccdcb8f08e332ed3b4a2021babc60697881b02aba15e3f910986cb0d5734c17",
+      "bytes": 6607,
+      "remote_git_blob_sha": "9148a4d98055028811cf9ae9e9b320d9e0810afb",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/examples/lesson21/example-report.json",
+      "error": null
+    },
+    {
+      "path": "examples/lesson21/versioning_lineage_lab.py",
+      "exact_content_equal": true,
+      "expected_sha256": "ed9dd5e2e380d723b34d62dc26581978971423fe8d4f733d9d0cd3a8a46378c4",
+      "bytes": 15787,
+      "remote_git_blob_sha": "5419f550b7a363297dc551fd490fd8d8f9f717f1",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/examples/lesson21/versioning_lineage_lab.py",
+      "error": null
+    },
+    {
+      "path": "archive/lessons/21/README.md",
+      "exact_content_equal": true,
+      "expected_sha256": "059616a3d5c32174c81c60f78a409ef307e79f64129604900bdc00c4f047bc89",
+      "bytes": 2414,
+      "remote_git_blob_sha": "ea29cca84f3f429c3f1ab3184cf0eadd7efe6955",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/archive/lessons/21/README.md",
+      "error": null
+    },
+    {
+      "path": "archive/lessons/21/asset-manifest.csv",
+      "exact_content_equal": true,
+      "expected_sha256": "b756a6d751ceef09768e2cd2b00c7cd7505dbcca1798ca81b0cd33ab5381d56d",
+      "bytes": 682,
+      "remote_git_blob_sha": "d2049e693beb24eec2a7f08178e7f2cceec4d133",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/archive/lessons/21/asset-manifest.csv",
+      "error": null
+    },
+    {
+      "path": "archive/lessons/21/assets/version-lineage-flow.mmd",
+      "exact_content_equal": true,
+      "expected_sha256": "68fc2c7aa39acfc09afbb0f7833eb940fe61cb4e8aacc0e77453cf34b0f402b6",
+      "bytes": 412,
+      "remote_git_blob_sha": "9833df791b42f8c21ce326e5f16d2b5090049bc2",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/archive/lessons/21/assets/version-lineage-flow.mmd",
+      "error": null
+    },
+    {
+      "path": "archive/lessons/21/citation-map.json",
+      "exact_content_equal": true,
+      "expected_sha256": "465aa6b38616a2a6d75c356bbf9cbea5e9b49eecb91ba41909e3fe281a4912e5",
+      "bytes": 2705,
+      "remote_git_blob_sha": "ea419224a7ecb37402b91e1621fb910d057137d9",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/archive/lessons/21/citation-map.json",
+      "error": null
+    },
+    {
+      "path": "archive/lessons/21/execution-verification.json",
+      "exact_content_equal": true,
+      "expected_sha256": "f55a4a2e91fc672b0358d923392e9fc9a040f00425e7f26538b49e84ef5beeb5",
+      "bytes": 716,
+      "remote_git_blob_sha": "77ea93f6c74d4c73f59e1d53917121dd68ceb3cc",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/archive/lessons/21/execution-verification.json",
+      "error": null
+    },
+    {
+      "path": "archive/lessons/21/progress-messages.md",
+      "exact_content_equal": true,
+      "expected_sha256": "ff0836a699666106d5e2ad820767ef7bbeeca800587151fb55bba6f94c5d8dce",
+      "bytes": 2476,
+      "remote_git_blob_sha": "4611e31645edf036f870efabf3c84a6c42765d1a",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/archive/lessons/21/progress-messages.md",
+      "error": null
+    },
+    {
+      "path": "archive/lessons/21/source-manifest.json",
+      "exact_content_equal": true,
+      "expected_sha256": "ab5b9d3c936fa7a815d7f3999540e338846c8df864c0b94749f6e7deab57c706",
+      "bytes": 3664,
+      "remote_git_blob_sha": "45665b039997dd643f77f8ff5984e132705e6c6d",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/archive/lessons/21/source-manifest.json",
+      "error": null
+    },
+    {
+      "path": "archive/lessons/21/transcript.md",
+      "exact_content_equal": true,
+      "expected_sha256": "07890e786a1cc3eb1fbb00ab0edb309cb19c92e4bfd280d6a08026bdb3e1a488",
+      "bytes": 47035,
+      "remote_git_blob_sha": "20eea97a46b2bfeb29d7cdb559cd1eeb3e0abe83",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/archive/lessons/21/transcript.md",
+      "error": null
+    },
+    {
+      "path": "archive/lessons/21/user-request.md",
+      "exact_content_equal": true,
+      "expected_sha256": "757f4ca4a04ca9786b99d95b0e44e3a4026586f5da8abccbae7548d865ad86d8",
+      "bytes": 390,
+      "remote_git_blob_sha": "9d7cdc5c29861d969e81b0018011ce9a357328a4",
+      "remote_url": "https://github.com/lucinwen/3d/blob/bce314ccc4a11a5da6211613b94f617e09f3d4a1/archive/lessons/21/user-request.md",
+      "error": null
+    }
+  ],
+  "metadata_followup": {
+    "purpose": "Persist this verification record and append the actual publication commentary; update its source-manifest hash and commentary count.",
+    "base_commit": "bce314ccc4a11a5da6211613b94f617e09f3d4a1",
+    "changed_prepared_files": [
+      {
+        "path": "archive/lessons/21/progress-messages.md",
+        "bytes": 2910,
+        "sha256": "0a616b2835fce45fc1271659225f878c82f5e0363b2821bdd81f860ac88afd09"
+      },
+      {
+        "path": "archive/lessons/21/source-manifest.json",
+        "bytes": 3664,
+        "sha256": "2ff7618fe488bd976d81e4c7e6f30202b434c72354acea6f9dad8cadef13ede0"
+      }
+    ],
+    "verification_record_excluded_from_self_hash": true
+  },
+  "boundaries": [
+    "Verifies content against the prepared source, not an independent chat UI export",
+    "Does not verify historical lesson transcripts or image recovery",
+    "Actual synthetic lab execution evidence is in execution-verification.json",
+    "No learner quiz/practice assessment was performed"
+  ]
+}

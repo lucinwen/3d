@@ -20,7 +20,7 @@
     "external_or_generated_image_binaries_used": 0,
     "runnable_lab_scripts": 1,
     "actual_full_lab_reports": 1,
-    "retained_progress_messages": 5
+    "retained_progress_messages": 6
   },
   "verification": "See execution-verification.json for actual synthetic run evidence; delivery-verification.json for remote content readback after commit.",
   "known_limits": [
@@ -63,8 +63,8 @@
     },
     {
       "path": "archive/lessons/21/progress-messages.md",
-      "bytes": 2476,
-      "sha256": "ff0836a699666106d5e2ad820767ef7bbeeca800587151fb55bba6f94c5d8dce"
+      "bytes": 2910,
+      "sha256": "0a616b2835fce45fc1271659225f878c82f5e0363b2821bdd81f860ac88afd09"
     },
     {
       "path": "archive/lessons/21/transcript.md",
